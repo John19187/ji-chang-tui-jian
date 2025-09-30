@@ -118,6 +118,7 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 | 特惠限量专业版 | ¥88.00   | 2300GB     | 20           | 2000Mbps |
 | 专业版         | ¥149.00  | 3200GB     | 20           | 2000Mbps |
 
+**一次性流量，48元200G、98元500G、198元1500G、288元2700G**
 
 **[稳定性价比机场](https://nodesilo.org/ji-chang-guide/wen-ding-official-site-coupons-review.html)套餐选购建议**
 
