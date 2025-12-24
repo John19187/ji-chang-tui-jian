@@ -121,7 +121,7 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 
 **📟 一次性流量48元200G、98元500G、279元1500GB **
 
-**[稳定性价比机场](https://nodesilo.org/ji-chang-guide/wen-ding-official-site-coupons-review.html)套餐选购建议**
+**套餐选购建议**
 
 为了帮助用户根据自身的需求选择最适合的套餐，我们给出以下建议：
 
