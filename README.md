@@ -24,7 +24,7 @@
 
 | 机场名称       | 主要特点                                                                                     | 线路类型                                                                | 流量与价格                                                                                                                               | 适用人群                                                                        | 设备支持           | 流媒体/AI解锁情况                                                                 | 备注                                                                                                                                            |
 |----------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[稳定机场](https://www.xyfast.xyz/#/register?code=RAsqP5M1)**       | 高速稳定，跨境专线，全球30+节点，24小时客服，高性价比，自研客户端                                                               | 企业级跨境专线                                                               | 轻量版¥18/月(100GB)，一次性流量48元200G、98元500G；年付特惠限量版¥56(600GB)，特惠限量专业版¥88(2300GB)，专业版¥139(3200GB)                                 | 预算有限到重度用户                                                                | 自研客户端，操作简单  | ChatGPT、YouTube、Netflix等                                                                                                   | 复购率高，适合科研、外贸、科技博主                                                                                                                         |
+| **[稳定机场](https://www.xyfast.xyz/#/register?code=RAsqP5M1)**       | 高速稳定，跨境专线，全球30+节点，24小时客服，高性价比，自研客户端                                                               | 企业级跨境专线                                                               | 轻量版¥18/月(100GB)，一次性流量48元200G、98元500G；年付特惠限量版¥76(600GB)，特惠限量专业版¥118(2300GB)，专业版¥168(3200GB)                                 | 预算有限到重度用户                                                                | 自研客户端，操作简单  | ChatGPT、YouTube、Netflix等                                                                                                   | 复购率高，适合科研、外贸、科技博主                                                                                                                         |
 | WestData西部数据 | Trojan协议，BGP多线接入+国际IPLC线路，解锁流媒体服务                                                                          | BGP多线接入+国际IPLC专线                                                       | SILVER ¥20/月(200GiB)，PLATINUM ¥40/月(400GiB)，DIAMOND ¥60/月(600GiB)，ULTIMATE ¥80/月(800GiB)                                 | 轻量到重度用户                                                                  | 多平台支持           | Netflix、Hulu、HBO、ChatGPT等                                                                                                     | 中国大陆BGP多线接入                                                                                                                           |
 | okanc机场       | IEPL专线，Shadowsocks协议，多地BGP入口，流量多，注册有免费试用                                                                   | IEPL专线+BGP优化                                                            | Pro版¥46/月(328GB)，Max版¥52/月(600GB)，Max+极致版¥88/月(1024GB)                                                                | 常看流媒体的用户                                                               | 多平台支持           | Netflix等流媒体，ChatGPT等AI                                                                                                        | 多地BGP跨境专线，物理绕开封锁，设备支持多设备同时在线使用                                                                                                 |
 | FSCloud机场      | 直连线路，Azure/AWS亚太入口，Hysteria2协议，解锁主流流媒体                                                                      | 直连+Hysteria2                                                               | 小份套餐¥13/年(100GB)，中份套餐¥9/季(350GB)，大份套餐¥10/月(1200GB)                                                               | 追求稳定高速的用户                                                               | 多平台支持           | Netflix, ChatGPT                                                                                                              | 电信Azure入口，移动联通AWS入口                                                                                                                  |
@@ -74,7 +74,7 @@
 ![image](https://github.com/user-attachments/assets/9eaa9c40-ab38-48ca-8235-209baa40f592)
 
 以下是该平台的几大亮点：
-- **年付促销56元600GB（约每月 4.6元）、88元2400GB（约每月 7.3元）、168元3600GB**
+- **年付促销58元600GB（约每月 4.6元）、88元2400GB（约每月 7.3元）、168元3600GB（约每月 14元）**
 
 - **全平台流媒体支持**  
 ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画质的震撼体验。
@@ -115,11 +115,11 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 
 | **套餐类型**   | **价格** | **年流量** | **客户端数** | **速率** |
 | -------------- | -------- | ---------- | ------------ | -------- |
-| 特惠限量版     | ¥56.00   | 600GB      | 5            | 2000Mbps |
-| 特惠限量专业版 | ¥88.00   | 2400GB     | 20           | 2000Mbps |
+| 特惠限量版     | ¥76.00   | 600GB      | 5            | 2000Mbps |
+| 特惠限量专业版 | ¥118.00   | 2400GB     | 20           | 2000Mbps |
 | 专业版         | ¥168.00  | 3600GB     | 20           | 2000Mbps |
 
-**一次性流量，48元200G、98元500G、198元1500G、288元2700G**
+**📟 一次性流量48元200G、98元500G、279元1500GB **
 
 **[稳定性价比机场](https://nodesilo.org/ji-chang-guide/wen-ding-official-site-coupons-review.html)套餐选购建议**
 
@@ -298,7 +298,7 @@ okanc机场是2023年底成立的 IEPL 专线机场，Shadowsocks 协议，多�
 FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用户体验。使用最新的协议hysteria2 协议。节点状态为bgp，电信用户自动分配为azure的入口，移动联通自动分配aws入口。netflix等主流流媒体解锁。
 
 
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://mm.silos.top/lepl/3nravKhsf7)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://mm.silos.top/lepl/3nravKhsf7)
 
 ![image](https://github.com/user-attachments/assets/1e3338dc-380a-4575-8bd9-8789830a16d3)
 ###  优惠码
@@ -328,7 +328,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 
 
-[**优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://nn.silos.top/lepl/EmNeVQpQnX)
+[**优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://nn.silos.top/lepl/EmNeVQpQnX)
 
 
 ### 优惠码
@@ -367,7 +367,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 **访问官网**：[ **大哥云机场官网地址入口 «**](https://aff01.dgy02.com/#/register?code=FZZljLUm)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://ii.silos.top/lepl/uC3PAnxKNZ)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://ii.silos.top/lepl/uC3PAnxKNZ)
 
 9折优惠券：mcuE8uOq 
 ###  套餐详情介绍
@@ -401,7 +401,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 **访问官网**：点击下方链接进入
 
 
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://yy.silos.top/lepl/z2VeZEc2Qv)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://yy.silos.top/lepl/z2VeZEc2Qv)
 
 ![image](https://github.com/user-attachments/assets/af51b917-2a14-4fe9-9ae9-93ee9a8e3dbf)
 
@@ -444,7 +444,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://jj.silos.top/lepl/DS4zPCf4bv)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://jj.silos.top/lepl/DS4zPCf4bv)
 
  ### **套餐详情**  
 
@@ -568,7 +568,7 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 **访问官网**：点击下方链接进入
 
 - [ **GsouCloud机场官网地址入口 «**](https://gsourecommend.pics/auth/register?code=POvWMJ)
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://aa.silos.top/lepl/Rxxe7jxkhZ)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://aa.silos.top/lepl/Rxxe7jxkhZ)
 
 ![image](https://github.com/user-attachments/assets/35f06e36-855b-4f8b-bf41-664ad0dc2a67)
 
@@ -646,7 +646,7 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 
 [ **奶茶Cloud机场官网地址入口 «**](https://cf.ieplcloud.net/#/register?code=lM0KhuPz)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://dd.silos.top/lepl/TUBkyNCAxY)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://dd.silos.top/lepl/TUBkyNCAxY)
 
 ![image](https://github.com/user-attachments/assets/e489eeae-6e5c-4139-b81d-641b63bd52ed)
  **优惠码**
@@ -742,7 +742,7 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 **访问官网**：点击下方链接进入
 
 - [ **泡芙云机场官网地址入口 «**](https://www.paofu.cloud/auth/register?code=iYIp)
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://ff.silos.top/lepl/umRuFdpXFv)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://ff.silos.top/lepl/umRuFdpXFv)
 
 ![image](https://github.com/user-attachments/assets/3826e9ce-69bc-429f-8ba4-2f59341a1f92)
 
@@ -831,7 +831,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 - [ **灯塔Cloud机场官网地址入口 «**](https://dengta.xn--xhq8sm16c5ls.com/#/register?code=wckrZ98j)
 - [ **灯塔Cloud机场官网地址入口2**](https://dengtacloud.com/#/register?code=wckrZ98j)
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://oo.silos.top/lepl/uACR5DDfBr)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://oo.silos.top/lepl/uACR5DDfBr)
 
 ![image](https://github.com/user-attachments/assets/3fda2859-9c43-4143-9d8f-2d10aff9cf3d)
 
@@ -910,7 +910,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 [ **维尼(霓虹云)机场官网地址入口 «**](https://www.nihong.org/#/register?code=Nmlo8gAF)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://zz.silos.top/lepl/AMu7KnrGmt)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://zz.silos.top/lepl/AMu7KnrGmt)
 
 ### **套餐概览**
 
@@ -944,7 +944,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 **访问官网**：[ **桔子云机场官网地址入口 «**](https://juziyun996.xyz/auth/register?code=9ZEL)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://aa.silos.top/lepl/YSPpKYchSH)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://aa.silos.top/lepl/YSPpKYchSH)
 
 特惠包年7折优惠代码：JJ369 限于时效性，最新优惠码，询问在线客服即可获得。
 ###  套餐详情介绍
@@ -975,7 +975,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 **访问官网**：点击下方链接进入
 
 - [ **虫洞云机场官网地址入口 «**](https://cd.jjjxgc.com/#/register?code=KhwmPR6S)
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://uu.silos.top/lepl/nvhNMhjK6f)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://uu.silos.top/lepl/nvhNMhjK6f)
 
 ![image](https://github.com/user-attachments/assets/a44281a5-37ac-4a6d-8561-e26aeccad4f1)
 
@@ -1003,7 +1003,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 **访问官网**：点击下方链接进入
 
 [ **小旋风机场官网地址入口 «**](https://cina01.xxfaff.cc/#/register?inviteCode=5BD230F64CE6)
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://xx.silos.top/lepl/56HcCrpAxn)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://xx.silos.top/lepl/56HcCrpAxn)
 ![image](https://github.com/user-attachments/assets/e9f85616-a1a5-4845-b16f-0576016811f1)
 
 ###  套餐详情介绍
@@ -1218,7 +1218,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 
 
 
-- [**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://vv.silos.top/lepl/BKpk64nGh8)
+- [**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://vv.silos.top/lepl/BKpk64nGh8)
 
 ![image](https://github.com/user-attachments/assets/0409cf53-5e13-46bb-b895-41f8fc1bf64b)
 
@@ -1252,7 +1252,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 
 
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://vv.silos.top/lepl/JZKYYXBun8)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://vv.silos.top/lepl/JZKYYXBun8)
 
 ![image](https://github.com/user-attachments/assets/33461201-549a-454c-99a5-447c2127120a)
 ###  优惠码
@@ -1323,7 +1323,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 
 [ **掌中世界机场官网地址入口 «**](https://www.zzsjjsq.com/user/register?code=HWZMKKAc)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://uu.silos.top/lepl/YyREcFuPC7)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://uu.silos.top/lepl/YyREcFuPC7)
 
 **优惠码**
 8折优惠 ZZSJ2025 限于时效性，最新优惠码，询问在线客服即可获得。
@@ -1413,7 +1413,7 @@ WestData 提供丰富的流媒体解锁服务，支持访问多种热门平台�
 
 [ **速云梯机场官网地址入口3**](https://suyunti99.xyz/auth/register?code=cxIu)
 
-[**备用 - 优质稳定性价比机场入口-年付活动58元600GB、88元2300GB、138元3200GB-送小火箭ID «**](https://ll.silos.top/lepl/AYPNYjWf2U)
+[**备用 - 优质稳定性价比机场入口-年付促销118元2400GB（约每月 9.8元） 一次性流量48元200G-送小火箭ID «**](https://ll.silos.top/lepl/AYPNYjWf2U)
 
 ![image](https://github.com/user-attachments/assets/26e175bf-cb9d-489e-94ba-478e7cd1c9d7)
 
