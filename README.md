@@ -68,20 +68,20 @@
 稳定机场致力于为用户提供迅速而稳定的网络连接体验，凭借领先的技术和合理的定价策略迅速获得了广泛好评。
 
 - [稳定机场入口1](https://user.xing-yun-1.com/#/register?code=RAsqP5M1)
-- [稳定机场入口2](https://api.xxxlsop.com/#/register?code=RAsqP5M1)
+- [稳定机场入口2](https://dash.xyfast.xyz/#/register?code=RAsqP5M1)]
 - [稳定机场入口3](https://www.xxxlsop3.com/#/register?code=RAsqP5M1)
 
 ![image](https://github.com/user-attachments/assets/9eaa9c40-ab38-48ca-8235-209baa40f592)
 
 以下是该平台的几大亮点：
- - 圣诞 & 元旦限时活动
 
-- ✅活动时间：即刻起至2026年1月20号23:59 ，支持套餐续费，新购。
 
-- 月付优惠码：8折：xingyun8888
-- 年付优惠码：9折：xingyun9999
+
 - **全平台流媒体支持**  
 ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画质的震撼体验。
+
+- **全AI平台流支持**
+高速访问ChatGPT、Gemini、Claude、Midjourney、Perplexity；Cursor、Codex、Google Antigravity等生产力平台
 
 - **专线跨境服务**  
   采用企业级专线构建跨境网络，即使在网络高峰或特殊时期，也能确保快速且稳定的连接，让国际沟通无缝衔接。
