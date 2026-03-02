@@ -67,9 +67,9 @@
 
 稳定机场致力于为用户提供迅速而稳定的网络连接体验，凭借领先的技术和合理的定价策略迅速获得了广泛好评。
 
-- [稳定机场入口1](https://user.xing-yun-1.com/#/register?code=RAsqP5M1)
-- [稳定机场入口2](https://cloud.xyfast.xyz/#/register?code=RAsqP5M1)**
-- [稳定机场入口3](https://www.xxxlsop3.com/#/register?code=RAsqP5M1)
+- **[稳定机场入口1](https://user.xing-yun-1.com/#/register?code=RAsqP5M1)**
+- **[稳定机场入口2](https://cloud.xyfast.xyz/#/register?code=RAsqP5M1)**
+- **[稳定机场入口3](https://www.xxxlsop3.com/#/register?code=RAsqP5M1)**
 
 ![image](https://github.com/user-attachments/assets/9eaa9c40-ab38-48ca-8235-209baa40f592)
 
@@ -157,7 +157,7 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 * **隐私安全：** 严格执行 0 日志政策，配合自研加密协议，彻底隐藏真实 IP。
 * **付款便捷：** 全面支持支付宝、微信、银联、信用卡、PayPal 及 USDT。
 
-**[进入闪连官网地址](https://lightningxvpn.com/download%3FinviteCode%3D85794840)**
+**[进入闪连官网地址](https://lightningxvpn.com/download?inviteCode=85794840)**
 
 ### 套餐概览
 
