@@ -71,7 +71,7 @@
 稳定机场致力于为用户提供迅速而稳定的网络连接体验，凭借领先的技术和合理的定价策略迅速获得了广泛好评。
 
 - **[稳定机场入口1](https://www.xyunonline.com/#/register?code=FllUAVkL)**
-- **[稳定机场入口2](https://cloud.xyfast.xyz/#/register?code=FllUAVkL)**
+- **[稳定机场入口2](https://www.xyunlink.com/#/register?code=FllUAVkL)**
 - **[稳定机场入口3](https://www.xxxlsop3.com/#/register?code=FllUAVkL)**
 
 ![image](https://github.com/user-attachments/assets/9eaa9c40-ab38-48ca-8235-209baa40f592)
