@@ -238,7 +238,7 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 
 优点：价格亲民，适合预算有限的用户；TG群氛围良好，客服响应快速
 
-[ **泰山机场官网地址入口 «**](https://jp.taishan.pro//register?code=oI64WvWj)
+[ **泰山机场官网地址入口 «**](https://hk.taishan.pro/#/register?code=7xY3tNqw)
 
 [**备用 - 便宜机场-量大价低-月付18元100GB、一次性流量48元200G、98元500G、送小火箭ID «**](https://hh.silos.top/cheap/fh6hbdKUQP)
 
