@@ -298,6 +298,17 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 ![image](https://github.com/user-attachments/assets/0a805302-359e-4bac-80fd-91c56daa12ca)
 
 ------
+## 优信云机场
+
+想要冷门国家的 IP 出口，去哪找？优信云走专线 Trojan 协议，卖点是节点铺得广——官网列出的可用地区超过 100 个，除了美国、日本、香港、台湾、韩国这些核心节点，还有大量长尾地区可选，适合对小众落地点有实际需求的用户，比如需要特定国家 IP 做流媒体解锁。
+
+最低档月付十几元、100GB 流量、限速 200Mbps、2 台设备。计费周期 30 天，按月自然重置流量，不是从注册日起算。年付有折扣码可以问客服，长期用比按月续更划算。
+
+👉 **[优信云机场官网注册入口](https://so.dianlanla.com/youxin)**
+
+![优信云机场官网套餐](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/youxin-airport.jpg)
+
+------
 
 ## FSCloud机场
 FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用户体验。使用最新的协议hysteria2 协议。节点状态为bgp，电信用户自动分配为azure的入口，移动联通自动分配aws入口。netflix等主流流媒体解锁。
