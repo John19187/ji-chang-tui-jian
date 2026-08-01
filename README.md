@@ -1,5 +1,12 @@
-# 2026年机场推荐：30+ 款稳定机场深度测评，高端专线/性价比/低价入门各档全覆盖，解锁 YouTube、Netflix、Disney+、ChatGPT、TikTok
-选机场，核心看三项：线路稳定性、套餐性价比、目标流媒体与 AI 服务的解锁能力。据此逐一评测市面主流机场，覆盖高端专线到低价入门各档位，每周核对一次价格与线路、剔除已跑路服务商。
+# 2026年机场推荐：40+ 款稳定机场深度测评，高端专线/性价比/低价入门各档全覆盖，解锁 YouTube、Netflix、Disney+、ChatGPT、TikTok
+
+[![Data and link checks](https://github.com/John19187/ji-chang-tui-jian/actions/workflows/data-and-links.yml/badge.svg)](https://github.com/John19187/ji-chang-tui-jian/actions/workflows/data-and-links.yml)
+[![License: MIT](https://img.shields.io/github/license/John19187/ji-chang-tui-jian)](LICENSE)
+[![Providers](https://img.shields.io/badge/providers-41-blue)](data/providers.yml)
+[![Last commit](https://img.shields.io/github/last-commit/John19187/ji-chang-tui-jian)](https://github.com/John19187/ji-chang-tui-jian/commits/main)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+选机场，核心看三项：线路稳定性、套餐性价比、目标流媒体与 AI 服务的解锁能力。据此综合整理市面主流机场，覆盖高端专线到低价入门各档位，每周核对一次价格与线路、剔除已跑路服务商。
 
 收录机场：MESL、Anyland、BoostNet、ByWave、flowercloud、FSCloud、Gatern、GsouCloud、WestData西部数据、WgetCloud、杨帆云、一云梯、一枝红杏、万城Vcity、可乐云、大哥云、大牛、奈云、奶茶Cloud、小旋风、小鲤鱼、悠兔、掌中世界、桔子云、泡芙云、泰山、灯塔Cloud、百变小樱、维尼(霓虹)、老猫云、虫洞、蚯蚓、起帆Cloud、超悦、速云梯、速鹰666、飞机云等。
 
@@ -7,7 +14,19 @@
 
 <img alt="ji-chang-banner" src="https://github.com/user-attachments/assets/9250df49-2664-468c-8ebf-267c0d90e6fc" />
 
-> **最后更新：2026 年 7 月 27 日** · 本次核查了全部 61 条服务商链接的可达性，结果见文末更新日志
+> **最后更新：2026 年 8 月 1 日** · 新增开放数据、维护方法、许可证与自动校验；历史链接核查记录见文末更新日志
+
+## 开放数据与透明度
+
+- [服务商结构化清单](data/providers.yml)：README 中 41 家服务商的名称、链接与维护状态。
+- [测试结果台账](data/test-results.csv)：没有可复核证据的条目明确标记为 `not_tested`。
+- [维护与测试方法](docs/methodology.md)：定义来源分级、链接检查及实测证据标准。
+- [贡献指南](CONTRIBUTING.md)：欢迎通过 Issue 或 Pull Request 提交有证据的纠错。
+
+本仓库采用 [MIT License](LICENSE)。服务商商标和其他第三方材料不包含在该授权中，详见
+[NOTICE](NOTICE.md)。当前统一跳转链接的佣金或返利关系尚待维护者确认，因此数据暂标记为
+`commercial_relationship: undisclosed`；这不代表“没有商业关系”。自动链接检查只证明网页
+当时可访问，不代表服务质量、隐私安全或推荐结论已经得到验证。
 
 <details>
 <summary><b>目录：全部 41 家机场 · 点击展开</b></summary>
@@ -1225,7 +1244,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 
 
 ------
-##  大牛云机场
+## 大牛云机场
 **大牛云机场**是一个为用户提供科学上网服务的平台，致力于为全球用户打破网络封锁与限制，提供稳定、快速的代理服务器服务。无论是为了访问特定网站，还是跨区域使用互联网，**大牛云**都能为您提供高效的解决方案。
 
 平台提供多种套餐，价格和服务种类丰富，用户可以根据自己的具体需求（如带宽、时长、节点位置等）选择最合适的套餐，以获得最佳的上网体验。
@@ -1284,7 +1303,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
  **优惠码**
 包年7折优惠代码： SYS25 限于时效性，最新优惠码，询问在线客服即可获得。
 
-##  套餐详情介绍
+### 套餐详情介绍
 
 | **套餐名称** | **价格** | **流量** | **设备数** | **速率** | **适用人群** |
 |-------------|---------|----------|------------|------------|--------------|
@@ -1366,7 +1385,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 
 
 ------
-##  悠兔机场
+## 悠兔机场
 **X机场**成立于2022年，创始人位于境外，专注于为全球用户提供稳定的翻墙服务。
 
 **入口与过境线路**  
@@ -1549,7 +1568,7 @@ WestData 提供丰富的流媒体解锁服务，支持访问多种热门平台�
 | 速云梯机场       | 拥有多种翻墙协议节点、支持SSR和V2ray协议，拥有国内中转和IPLC内网专线。                                                                                 | 中转+IPLC专线                                                               | 入门¥19.9/月，基础¥29.9/月，标准¥39.9/月，旗舰¥59.99/月，旗舰大流量¥99.99/月                                                                    | 需要稳定安全访问的用户                                                            | 多平台支持           | 可解锁流媒体，但未明确指出哪些平台                                                                                     |                                                                                                                                               |
 
 
-##  套餐详情介绍
+### 套餐详情介绍
 |套餐|入门版|基础版|标准版|旗舰版|旗舰版大流量|
 |----|----|----|----|----|----|
 |月付|￥19.9|￥29.9|￥39.9|￥59.99|￥99.99|
@@ -1642,6 +1661,7 @@ MESL 成立于 2022 年，主打金融级 IEPL 专线。节点接入阿里云 CE
 
 ## 更新日志
 
+- 2026-08-01　新增 MIT 许可证、结构化服务商清单、测试台账、维护方法与 GitHub Actions 自动校验
 - 2026-07-27　全量核查 61 条服务商链接可达性，6 条访问不到；逐条追查后 3 家为更换域名、2 家已停运或转手
 - 2026-07-19　星云机场更换官网域名，链接已同步
 - 2026-07-07　下架 okanc（疑似停运）

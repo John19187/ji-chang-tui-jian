@@ -1,0 +1,334 @@
+schema_version: 1
+updated_at: "2026-08-01"
+disclosure: >-
+  Commercial relationships for the listed links have not yet been confirmed by
+  the repository owner. See NOTICE.md and docs/methodology.md.
+providers:
+  - id: xingyun
+    name: 稳定性价比机场
+    source_heading: 稳定性价比机场
+    url: https://so.dianlanla.com/xingyun2
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: wgetcloud
+    name: WgetCloud机场
+    source_heading: WgetCloud机场
+    url: https://so.dianlanla.com/wgetcloud
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: yangfan
+    name: 杨帆云机场
+    source_heading: 杨帆云机场
+    url: https://so.dianlanla.com/yangfan
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: laomao
+    name: 老猫云机场
+    source_heading: 老猫云机场
+    url: https://so.dianlanla.com/laomao
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: taishan-net
+    name: Taishan Net 泰山机场
+    source_heading: Taishan Net 泰山机场
+    url: https://so.dianlanla.com/taishan
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: juziyun
+    name: 桔子云机场
+    source_heading: 桔子云机场
+    url: https://so.dianlanla.com/juziyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: youxin
+    name: 优信云机场
+    source_heading: 优信云机场
+    url: https://so.dianlanla.com/youxin
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: fscloud
+    name: FSCloud机场
+    source_heading: FSCloud机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: flowercloud
+    name: flowercloud花云机场
+    source_heading: flowercloud花云机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: dageyun
+    name: 大哥云机场
+    source_heading: 大哥云机场
+    url: https://so.dianlanla.com/dageyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: yinyun
+    name: 隐云机场
+    source_heading: 隐云机场
+    url: https://so.dianlanla.com/yinyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: baibian-xiaoying
+    name: 百变小樱机场
+    source_heading: 百变小樱机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: qiuyin
+    name: 蚯蚓机场
+    source_heading: 蚯蚓机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: chaoyue
+    name: 超悦机场
+    source_heading: 超悦机场
+    url: https://so.dianlanla.com/chaoyue
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: xiaoliyu
+    name: 小鲤鱼机场
+    source_heading: 小鲤鱼机场
+    url: https://so.dianlanla.com/xiaoliyu
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: keyun
+    name: 可乐云机场
+    source_heading: 可乐云机场
+    url: https://so.dianlanla.com/keyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: gsoucloud
+    name: GsouCloud机场
+    source_heading: GsouCloud机场
+    url: https://so.dianlanla.com/gsoucloud
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: bywave
+    name: ByWave机场
+    source_heading: ByWave机场
+    url: https://so.dianlanla.com/bywave
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: naicha-cloud
+    name: 奶茶Cloud机场
+    source_heading: 奶茶Cloud机场
+    url: https://so.dianlanla.com/naichatea
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: qifan-cloud
+    name: 起帆Cloud机场
+    source_heading: 起帆Cloud机场
+    url: https://so.dianlanla.com/qifan
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: vcity
+    name: 万城Vcity机场
+    source_heading: 万城Vcity机场
+    url: https://so.dianlanla.com/wancheng
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: paofu
+    name: 泡芙云机场
+    source_heading: 泡芙云机场
+    url: https://so.dianlanla.com/paofu
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: web3
+    name: Web3加速器
+    source_heading: Web3加速器
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: feijiyun
+    name: 飞机云机场
+    source_heading: 飞机云机场
+    url: https://so.dianlanla.com/feijiyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: dengta-cloud
+    name: 灯塔Cloud机场
+    source_heading: 灯塔Cloud机场
+    url: https://so.dianlanla.com/dengta
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: naiyun
+    name: 奈云机场
+    source_heading: 奈云机场
+    url: https://so.dianlanla.com/naiyun
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: flash-express
+    name: 网际快车 (Flash Express)
+    source_heading: 网际快车 (Flash Express)
+    url: https://so.dianlanla.com/flashexpress
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: nihong
+    name: 霓虹
+    source_heading: 霓虹
+    url: https://so.dianlanla.com/nihong
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: chongdong
+    name: 虫洞云机场
+    source_heading: 虫洞云机场
+    url: https://so.dianlanla.com/chongdong
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: xiaoxuanfeng
+    name: 小旋风机场
+    source_heading: 小旋风机场
+    url: https://so.dianlanla.com/xiaoxuanfeng
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: yiyunti
+    name: 一云梯机场
+    source_heading: 一云梯机场
+    url: https://so.dianlanla.com/yiyunti
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: gatern
+    name: Gatern机场
+    source_heading: Gatern机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: daniuyun
+    name: 大牛云机场
+    source_heading: 大牛云机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: suying666
+    name: 速鹰666机场
+    source_heading: 速鹰666机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: yizhihongxing
+    name: 一枝红杏机场
+    source_heading: 一枝红杏机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: boostnet
+    name: BoostNet机场
+    source_heading: BoostNet机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: youtu
+    name: 悠兔机场
+    source_heading: 悠兔机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: zhangzhong-shijie
+    name: 掌中世界机场
+    source_heading: 掌中世界机场
+    url: https://so.dianlanla.com/zhangzhong
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: westdata
+    name: WestData西部数据机场
+    source_heading: WestData西部数据机场
+    url: null
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: suyunti
+    name: 速云梯机场
+    source_heading: 速云梯机场
+    url: https://so.dianlanla.com/suyunti
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
+  - id: mesl
+    name: MESL机场
+    source_heading: MESL机场
+    url: https://so.dianlanla.com/mesl
+    status: unknown
+    last_reviewed: null
+    testing_status: not_tested
+    commercial_relationship: undisclosed
