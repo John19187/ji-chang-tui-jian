@@ -1,168 +1,168 @@
 schema_version: 1
-updated_at: "2026-08-01"
+updated_at: '2026-08-01'
 maintenance: ongoing
 providers:
-  - id: xingyun
-    name: 稳定性价比机场
-    source_heading: 稳定性价比机场
-    url: https://so.dianlanla.com/xingyun2
-  - id: wgetcloud
-    name: WgetCloud机场
-    source_heading: WgetCloud机场
-    url: https://so.dianlanla.com/wgetcloud
-  - id: yangfan
-    name: 杨帆云机场
-    source_heading: 杨帆云机场
-    url: https://so.dianlanla.com/yangfan
-  - id: laomao
-    name: 老猫云机场
-    source_heading: 老猫云机场
-    url: https://so.dianlanla.com/laomao
-  - id: taishan-net
-    name: Taishan Net 泰山机场
-    source_heading: Taishan Net 泰山机场
-    url: https://so.dianlanla.com/taishan
-  - id: juziyun
-    name: 桔子云机场
-    source_heading: 桔子云机场
-    url: https://so.dianlanla.com/juziyun
-  - id: youxin
-    name: 优信云机场
-    source_heading: 优信云机场
-    url: https://so.dianlanla.com/youxin
-  - id: fscloud
-    name: FSCloud机场
-    source_heading: FSCloud机场
-    url: null
-  - id: flowercloud
-    name: flowercloud花云机场
-    source_heading: flowercloud花云机场
-    url: null
-  - id: dageyun
-    name: 大哥云机场
-    source_heading: 大哥云机场
-    url: https://so.dianlanla.com/dageyun
-  - id: yinyun
-    name: 隐云机场
-    source_heading: 隐云机场
-    url: https://so.dianlanla.com/yinyun
-  - id: baibian-xiaoying
-    name: 百变小樱机场
-    source_heading: 百变小樱机场
-    url: null
-  - id: qiuyin
-    name: 蚯蚓机场
-    source_heading: 蚯蚓机场
-    url: null
-  - id: chaoyue
-    name: 超悦机场
-    source_heading: 超悦机场
-    url: https://so.dianlanla.com/chaoyue
-  - id: xiaoliyu
-    name: 小鲤鱼机场
-    source_heading: 小鲤鱼机场
-    url: https://so.dianlanla.com/xiaoliyu
-  - id: keyun
-    name: 可乐云机场
-    source_heading: 可乐云机场
-    url: https://so.dianlanla.com/keyun
-  - id: gsoucloud
-    name: GsouCloud机场
-    source_heading: GsouCloud机场
-    url: https://so.dianlanla.com/gsoucloud
-  - id: bywave
-    name: ByWave机场
-    source_heading: ByWave机场
-    url: https://so.dianlanla.com/bywave
-  - id: naicha-cloud
-    name: 奶茶Cloud机场
-    source_heading: 奶茶Cloud机场
-    url: https://so.dianlanla.com/naichatea
-  - id: qifan-cloud
-    name: 起帆Cloud机场
-    source_heading: 起帆Cloud机场
-    url: https://so.dianlanla.com/qifan
-  - id: vcity
-    name: 万城Vcity机场
-    source_heading: 万城Vcity机场
-    url: https://so.dianlanla.com/wancheng
-  - id: paofu
-    name: 泡芙云机场
-    source_heading: 泡芙云机场
-    url: https://so.dianlanla.com/paofu
-  - id: web3
-    name: Web3加速器
-    source_heading: Web3加速器
-    url: null
-  - id: feijiyun
-    name: 飞机云机场
-    source_heading: 飞机云机场
-    url: https://so.dianlanla.com/feijiyun
-  - id: dengta-cloud
-    name: 灯塔Cloud机场
-    source_heading: 灯塔Cloud机场
-    url: https://so.dianlanla.com/dengta
-  - id: naiyun
-    name: 奈云机场
-    source_heading: 奈云机场
-    url: https://so.dianlanla.com/naiyun
-  - id: flash-express
-    name: 网际快车 (Flash Express)
-    source_heading: 网际快车 (Flash Express)
-    url: https://so.dianlanla.com/flashexpress
-  - id: nihong
-    name: 霓虹
-    source_heading: 霓虹
-    url: https://so.dianlanla.com/nihong
-  - id: chongdong
-    name: 虫洞云机场
-    source_heading: 虫洞云机场
-    url: https://so.dianlanla.com/chongdong
-  - id: xiaoxuanfeng
-    name: 小旋风机场
-    source_heading: 小旋风机场
-    url: https://so.dianlanla.com/xiaoxuanfeng
-  - id: yiyunti
-    name: 一云梯机场
-    source_heading: 一云梯机场
-    url: https://so.dianlanla.com/yiyunti
-  - id: gatern
-    name: Gatern机场
-    source_heading: Gatern机场
-    url: null
-  - id: daniuyun
-    name: 大牛云机场
-    source_heading: 大牛云机场
-    url: null
-  - id: suying666
-    name: 速鹰666机场
-    source_heading: 速鹰666机场
-    url: null
-  - id: yizhihongxing
-    name: 一枝红杏机场
-    source_heading: 一枝红杏机场
-    url: null
-  - id: boostnet
-    name: BoostNet机场
-    source_heading: BoostNet机场
-    url: null
-  - id: youtu
-    name: 悠兔机场
-    source_heading: 悠兔机场
-    url: null
-  - id: zhangzhong-shijie
-    name: 掌中世界机场
-    source_heading: 掌中世界机场
-    url: https://so.dianlanla.com/zhangzhong
-  - id: westdata
-    name: WestData西部数据机场
-    source_heading: WestData西部数据机场
-    url: null
-  - id: suyunti
-    name: 速云梯机场
-    source_heading: 速云梯机场
-    url: https://so.dianlanla.com/suyunti
-  - id: mesl
-    name: MESL机场
-    source_heading: MESL机场
-    url: https://so.dianlanla.com/mesl
+- id: xingyun
+  name: 稳定性价比机场
+  source_heading: 稳定性价比机场
+  url: https://so.dianlanla.com/xingyun2
+- id: wgetcloud
+  name: WgetCloud机场
+  source_heading: WgetCloud机场
+  url: https://so.dianlanla.com/wgetcloud
+- id: yangfan
+  name: 杨帆云机场
+  source_heading: 杨帆云机场
+  url: https://so.dianlanla.com/yangfan
+- id: laomao
+  name: 老猫云机场
+  source_heading: 老猫云机场
+  url: https://so.dianlanla.com/laomao
+- id: taishan-net
+  name: Taishan Net 泰山机场
+  source_heading: Taishan Net 泰山机场
+  url: https://jp.taishan.app/register?code=oI64WvWj
+- id: juziyun
+  name: 桔子云机场
+  source_heading: 桔子云机场
+  url: https://so.dianlanla.com/juziyun
+- id: youxin
+  name: 优信云机场
+  source_heading: 优信云机场
+  url: https://so.dianlanla.com/youxin
+- id: fscloud
+  name: FSCloud机场
+  source_heading: FSCloud机场
+  url: null
+- id: flowercloud
+  name: flowercloud花云机场
+  source_heading: flowercloud花云机场
+  url: null
+- id: dageyun
+  name: 大哥云机场
+  source_heading: 大哥云机场
+  url: https://so.dianlanla.com/dageyun
+- id: yinyun
+  name: 隐云机场
+  source_heading: 隐云机场
+  url: https://so.dianlanla.com/yinyun
+- id: baibian-xiaoying
+  name: 百变小樱机场
+  source_heading: 百变小樱机场
+  url: null
+- id: qiuyin
+  name: 蚯蚓机场
+  source_heading: 蚯蚓机场
+  url: null
+- id: chaoyue
+  name: 超悦机场
+  source_heading: 超悦机场
+  url: https://so.dianlanla.com/chaoyue
+- id: xiaoliyu
+  name: 小鲤鱼机场
+  source_heading: 小鲤鱼机场
+  url: https://so.dianlanla.com/xiaoliyu
+- id: keyun
+  name: 可乐云机场
+  source_heading: 可乐云机场
+  url: https://so.dianlanla.com/keyun
+- id: gsoucloud
+  name: GsouCloud机场
+  source_heading: GsouCloud机场
+  url: https://so.dianlanla.com/gsoucloud
+- id: bywave
+  name: ByWave机场
+  source_heading: ByWave机场
+  url: https://so.dianlanla.com/bywave
+- id: naicha-cloud
+  name: 奶茶Cloud机场
+  source_heading: 奶茶Cloud机场
+  url: https://so.dianlanla.com/naichatea
+- id: qifan-cloud
+  name: 起帆Cloud机场
+  source_heading: 起帆Cloud机场
+  url: https://so.dianlanla.com/qifan
+- id: vcity
+  name: 万城Vcity机场
+  source_heading: 万城Vcity机场
+  url: https://so.dianlanla.com/wancheng
+- id: paofu
+  name: 泡芙云机场
+  source_heading: 泡芙云机场
+  url: https://so.dianlanla.com/paofu
+- id: web3
+  name: Web3加速器
+  source_heading: Web3加速器
+  url: null
+- id: feijiyun
+  name: 飞机云机场
+  source_heading: 飞机云机场
+  url: https://so.dianlanla.com/feijiyun
+- id: dengta-cloud
+  name: 灯塔Cloud机场
+  source_heading: 灯塔Cloud机场
+  url: https://so.dianlanla.com/dengta
+- id: naiyun
+  name: 奈云机场
+  source_heading: 奈云机场
+  url: https://so.dianlanla.com/naiyun
+- id: flash-express
+  name: 网际快车 (Flash Express)
+  source_heading: 网际快车 (Flash Express)
+  url: https://so.dianlanla.com/flashexpress
+- id: nihong
+  name: 霓虹
+  source_heading: 霓虹
+  url: https://so.dianlanla.com/nihong
+- id: chongdong
+  name: 虫洞云机场
+  source_heading: 虫洞云机场
+  url: https://so.dianlanla.com/chongdong
+- id: xiaoxuanfeng
+  name: 小旋风机场
+  source_heading: 小旋风机场
+  url: https://so.dianlanla.com/xiaoxuanfeng
+- id: yiyunti
+  name: 一云梯机场
+  source_heading: 一云梯机场
+  url: https://so.dianlanla.com/yiyunti
+- id: gatern
+  name: Gatern机场
+  source_heading: Gatern机场
+  url: null
+- id: suying666
+  name: 速鹰666机场
+  source_heading: 速鹰666机场
+  url: null
+- id: yizhihongxing
+  name: 一枝红杏机场
+  source_heading: 一枝红杏机场
+  url: null
+- id: boostnet
+  name: BoostNet机场
+  source_heading: BoostNet机场
+  url: null
+- id: youtu
+  name: 悠兔机场
+  source_heading: 悠兔机场
+  url: null
+- id: zhangzhong-shijie
+  name: 掌中世界机场
+  source_heading: 掌中世界机场
+  url: https://so.dianlanla.com/zhangzhong
+- id: westdata
+  name: WestData西部数据机场
+  source_heading: WestData西部数据机场
+  url: null
+- id: suyunti
+  name: 速云梯机场
+  source_heading: 速云梯机场
+  url: https://so.dianlanla.com/suyunti
+- id: mesl
+  name: MESL机场
+  source_heading: MESL机场
+  url: https://so.dianlanla.com/mesl
+- id: bitz-net
+  name: Bitz Net机场
+  source_heading: Bitz Net机场
+  url: https://so.dianlanla.com/bitznet
