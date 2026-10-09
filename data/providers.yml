@@ -162,6 +162,10 @@ providers:
   name: MESL机场
   source_heading: MESL机场
   url: https://so.dianlanla.com/mesl
+- id: lanfanyun
+  name: 蓝帆云
+  source_heading: 蓝帆云
+  url: https://so.dianlanla.com/lanfanyun
 - id: bitz-net
   name: Bitz Net机场
   source_heading: Bitz Net机场
