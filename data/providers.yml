@@ -170,3 +170,19 @@ providers:
   name: Bitz Net机场
   source_heading: Bitz Net机场
   url: https://so.dianlanla.com/bitznet
+- id: miaolianyun
+  name: 秒连云机场
+  source_heading: 秒连云机场
+  url: https://mly518.com/#/register?code=IDN5bnoG
+- id: saiboyun
+  name: 赛博云机场
+  source_heading: 赛博云机场
+  url: https://saiboyun.org/#/register?code=dAvrmHqg
+- id: peiqian-airport
+  name: 赔钱机场
+  source_heading: 赔钱机场
+  url: https://xn--mes358aby2apfg.com/register?code=qhyiSP1G&cover=sfw
+- id: beibei-cloud
+  name: 贝贝云机场
+  source_heading: 贝贝云机场
+  url: https://2beibei.com/register?code=tYdL5jFF
