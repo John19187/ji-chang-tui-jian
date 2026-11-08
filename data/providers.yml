@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: '2026-08-01'
+updated_at: '2026-11-08'
 maintenance: ongoing
 providers:
 - id: xingyun
@@ -13,15 +13,15 @@ providers:
 - id: yangfan
   name: 杨帆云机场
   source_heading: 杨帆云机场
-  url: https://so.dianlanla.com/yangfan
+  url: https://ml.yfqz1.net/register?code=Ln9zXJ4W
 - id: laomao
   name: 老猫云机场
   source_heading: 老猫云机场
-  url: https://so.dianlanla.com/laomao
+  url: https://www.laomaourl.com?path=register&code=0mDDoTul
 - id: taishan-net
   name: Taishan Net 泰山机场
   source_heading: Taishan Net 泰山机场
-  url: https://jp.taishan.app/register?code=oI64WvWj
+  url: https://hk.taishan.pro/#/register?code=oI64WvWj
 - id: juziyun
   name: 桔子云机场
   source_heading: 桔子云机场
@@ -41,7 +41,7 @@ providers:
 - id: dageyun
   name: 大哥云机场
   source_heading: 大哥云机场
-  url: https://so.dianlanla.com/dageyun
+  url: https://dageyun.net/#/register?code=dxFHFakJ
 - id: yinyun
   name: 隐云机场
   source_heading: 隐云机场
@@ -97,11 +97,11 @@ providers:
 - id: feijiyun
   name: 飞机云机场
   source_heading: 飞机云机场
-  url: https://so.dianlanla.com/feijiyun
+  url: https://feiji659.xyz/auth/register?code=44Ju
 - id: dengta-cloud
   name: 灯塔Cloud机场
   source_heading: 灯塔Cloud机场
-  url: https://so.dianlanla.com/dengta
+  url: https://dengta.feishu-open.com/register?code=wckrZ98j
 - id: naiyun
   name: 奈云机场
   source_heading: 奈云机场
@@ -117,7 +117,7 @@ providers:
 - id: chongdong
   name: 虫洞云机场
   source_heading: 虫洞云机场
-  url: https://so.dianlanla.com/chongdong
+  url: https://cdweb.jjjxgc.com/#/register?code=KhwmPR6S
 - id: xiaoxuanfeng
   name: 小旋风机场
   source_heading: 小旋风机场
@@ -170,3 +170,7 @@ providers:
   name: Bitz Net机场
   source_heading: Bitz Net机场
   url: https://so.dianlanla.com/bitznet
+- id: owner-ap0089
+  name: 秒连云机场
+  source_heading: 秒连云机场
+  url: https://mly518.com/#/register?code=H9VcAY83
