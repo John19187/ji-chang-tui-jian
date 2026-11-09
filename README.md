@@ -30,7 +30,7 @@
 
 [本次新增：秒连云机场](#miaolianyun)
 
-[稳定性价比机场](#稳定性价比机场) · [WgetCloud机场](#wgetcloud机场) · [杨帆云机场](#杨帆云机场) · [老猫云机场](#老猫云机场) · [Taishan Net 泰山机场](#taishan-net-泰山机场) · [桔子云机场](#桔子云机场) · [优信云机场](#优信云机场) · [FSCloud机场](#fscloud机场) · [flowercloud花云机场](#flowercloud花云机场) · [大哥云机场](#大哥云机场) · [隐云机场](#隐云机场) · [百变小樱机场](#百变小樱机场) · [蚯蚓机场](#蚯蚓机场) · [超悦机场](#超悦机场) · [小鲤鱼机场](#小鲤鱼机场) · [可乐云机场](#可乐云机场) · [GsouCloud机场](#gsoucloud机场) · [ByWave机场](#bywave机场) · [奶茶Cloud机场](#奶茶cloud机场) · [起帆Cloud机场](#起帆cloud机场) · [万城Vcity机场](#万城vcity机场) · [泡芙云机场](#泡芙云机场) · [Web3加速器](#web3加速器) · [飞机云机场](#飞机云机场) · [灯塔Cloud机场](#灯塔cloud机场) · [奈云机场](#奈云机场) · [网际快车 (Flash Express)](#网际快车-flash-express) · [霓虹](#霓虹) · [虫洞云机场](#虫洞云机场) · [小旋风机场](#小旋风机场) · [一云梯机场](#一云梯机场) · [Gatern机场](#gatern机场) · [速鹰666机场](#速鹰666机场) · [一枝红杏机场](#一枝红杏机场) · [BoostNet机场](#boostnet机场) · [悠兔机场](#悠兔机场) · [掌中世界机场](#掌中世界机场) · [WestData西部数据机场](#westdata西部数据机场) · [速云梯机场](#速云梯机场) · [MESL机场](#mesl机场) · [Bitz Net机场](#bitz-net机场) · [蓝帆云](#lanfanyun) · [按月付、季付与按量需求比较机场](#按月付季付与按量需求比较机场) · [机场连不上了，先分清是哪一种](#机场连不上了先分清是哪一种) · [更新日志](#更新日志)
+[稳定性价比机场](#稳定性价比机场) · [WgetCloud机场](#wgetcloud机场) · [杨帆云机场](#杨帆云机场) · [老猫云机场](#老猫云机场) · [Taishan Net 泰山机场](#taishan-net-泰山机场) · [桔子云机场](#桔子云机场) · [优信云机场](#优信云机场) · [FSCloud机场](#fscloud机场) · [flowercloud花云机场](#flowercloud花云机场) · [大哥云机场](#大哥云机场) · [隐云机场](#隐云机场) · [百变小樱机场](#百变小樱机场) · [蚯蚓机场](#蚯蚓机场) · [超悦机场](#超悦机场) · [小鲤鱼机场](#小鲤鱼机场) · [可乐云机场](#可乐云机场) · [GsouCloud机场](#gsoucloud机场) · [ByWave机场](#bywave机场) · [奶茶Cloud机场](#奶茶cloud机场) · [起帆Cloud机场](#起帆cloud机场) · [万城Vcity机场](#万城vcity机场) · [泡芙云机场](#泡芙云机场) · [Web3加速器](#web3加速器) · [飞机云机场](#飞机云机场) · [灯塔Cloud机场](#灯塔cloud机场) · [奈云机场](#奈云机场) · [网际快车 (Flash Express)](#网际快车-flash-express) · [霓虹](#霓虹) · [虫洞云机场](#虫洞云机场) · [小旋风机场](#小旋风机场) · [一云梯机场](#一云梯机场) · [Gatern机场](#gatern机场) · [速鹰666机场](#速鹰666机场) · [一枝红杏机场](#一枝红杏机场) · [BoostNet机场](#boostnet机场) · [悠兔机场](#悠兔机场) · [掌中世界机场](#掌中世界机场) · [WestData西部数据机场](#westdata西部数据机场) · [速云梯机场](#速云梯机场) · [MESL机场](#mesl机场) · [Bitz Net机场](#bitz-net机场) · [蓝帆云](#lanfanyun) · [按月付、季付与按量需求比较机场](#按月付季付与按量需求比较机场) · [机场连不上了，先分清是哪一种](#机场连不上了先分清是哪一种) · [更新日志](#更新日志) · [秒连云机场](#秒连云机场)
 
 </details>
 
@@ -206,7 +206,7 @@ WgetCloud 机场使用的早期支持 Shadowsocks 、SSR、V2ray（vmess）、Tr
 - 峰值带宽 2000Mbps，但只有 LV4、旗舰版这两档能吃满。
 - 流媒体、ChatGPT 的解锁效果跟着节点等级走，低档位只挂国内中转，能不能连上全看运气。
 
-👉 **[杨帆云机场官网注册入口](https://ml.yfqz1.net/register?code=Ln9zXJ4W)**
+👉 **[杨帆云机场官网注册入口](https://so.dianlanla.com/yangfan)**
 
 ![杨帆云机场官网套餐](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/yangfan-airport.jpg)
 
@@ -241,7 +241,7 @@ Trojan协议：采用TLS加密，提高安全性和隐蔽性。
 
 节点分布：节点分布在香港、日本、新加坡、美国、台湾、英国、俄罗斯等地区。
 
-👉 **[老猫云机场官网注册入口](https://www.laomaourl.com?path=register&code=0mDDoTul)**
+👉 **[老猫云机场官网注册入口](https://so.dianlanla.com/laomao)**
 
 
 
@@ -293,7 +293,7 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 
 优点：价格亲民，适合预算有限的用户；TG群氛围良好，客服响应快速
 
-👉 **[泰山机场官网注册入口](https://hk.taishan.pro/#/register?code=oI64WvWj)**
+👉 **[泰山机场官网注册入口](https://so.dianlanla.com/taishan)**
 
 
 
@@ -464,7 +464,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 9折优惠券：mcuE8uOq 
 
-👉 **[大哥云机场官网注册入口](https://dageyun.net/#/register?code=dxFHFakJ)**
+👉 **[大哥云机场官网注册入口](https://so.dianlanla.com/dageyun)**
 
 ###  套餐详情介绍
 
@@ -955,7 +955,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 特惠包年7折优惠代码：FJ555 限于时效性，最新优惠码，询问在线客服即可获得。
 
-👉 **[飞机云机场官网注册入口](https://feiji659.xyz/auth/register?code=44Ju)**
+👉 **[飞机云机场官网注册入口](https://so.dianlanla.com/feijiyun)**
 
 
 ###  套餐详情介绍
@@ -986,7 +986,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 注册试用：首次注册即享 60分钟10GB 高速流量，先体验再决定购买
 
-👉 **[灯塔Cloud机场官网注册入口](https://dengta.feishu-open.com/register?code=wckrZ98j)**
+👉 **[灯塔Cloud机场官网注册入口](https://so.dianlanla.com/dengta)**
 
 
 
@@ -1160,7 +1160,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 - 峰值速率：120Mbps，高效稳定  
 - 月流量上限：最高可达 600GB，满足大流量需求
 
-👉 **[虫洞云机场官网注册入口](https://cdweb.jjjxgc.com/#/register?code=KhwmPR6S)**
+👉 **[虫洞云机场官网注册入口](https://so.dianlanla.com/chongdong)**
 
 
 
@@ -1719,7 +1719,7 @@ Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。�
 
 月度常用流量和偶尔使用的备用流量，可以分开安排。秒连云同时提供月付套餐与一次性付费的不限时流量包：Air 120G月付8元；120G不限时流量包一次性38元。前者按月提供额度，后者按流量使用，可以按自己的使用频率比较固定月费与总量包的花费。
 
-👉 **[秒连云官网注册入口](https://mly518.com/#/register?code=H9VcAY83)**
+👉 **[秒连云官网注册入口](https://so.dianlanla.com/owner-ap0089)**
 
 ### 月付及年付套餐
 
