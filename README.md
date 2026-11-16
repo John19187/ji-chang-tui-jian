@@ -1,54 +1,76 @@
 # 2026机场推荐：专线、月付与按量套餐对比及选购指南
 
-[![Data and link checks](https://github.com/John19187/ji-chang-tui-jian/actions/workflows/data-and-links.yml/badge.svg)](https://github.com/John19187/ji-chang-tui-jian/actions/workflows/data-and-links.yml)
-[![License: MIT](https://img.shields.io/github/license/John19187/ji-chang-tui-jian)](LICENSE)
-[![Providers](https://img.shields.io/badge/providers-43-blue)](data/providers.yml)
-[![Last commit](https://img.shields.io/github/last-commit/John19187/ji-chang-tui-jian)](https://github.com/John19187/ji-chang-tui-jian/commits/main)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-2026年4月以来，大陆跨境网络环境经历了多轮收紧；10月下旬重要会议前后，部分直连和海外中转线路又出现端口受阻、节点超时等情况。进入11月，已有部分连接恢复的反馈，日常选机场仍需把入口维护、客户端支持和线路调整能力一起考虑。
+选机场先确认客户端路线，再比较实付周期与流量。日常使用可从预算表选档，间歇使用重点看总量包有效期；专线、中转和标称带宽则要落实到所选套餐与节点。已有服务的人可直接进入客户端教程或故障处理，无需重新开始购买。
 
-每天用机场，先比较每月流量、客户端和常用节点；偶尔查资料，再看按量流量包的总量与有效期。这份清单覆盖专线、中转、月付与总量包，本次加入同时提供月付和不限时流量的秒连云，并更新多家注册入口。可从稳定机场、WgetCloud的介绍开始比较，再结合后面的用途表、套餐横向表与购买指南选择。
+每天用机场，可以从[预算和用途表](#airport-budget)对照月费、流量和客户端。只在出差或旅行时用，先看[按量包和周期套餐的区别](#airport-payment)，尤其留意剩余流量能保留多久。
 
-收录43家机场，完整品牌目录可展开查看；套餐横向表与选购指南分别回答价格、付款、流量和客户端问题。近期环境变化的来龙去脉与TCP、DNS问答，见[VPN推荐与使用指南](https://github.com/John19187/The-40-Best-VPNs#vpn-network-2026)。
+收录40家机场，完整品牌目录可展开查看；套餐横向表与选购指南分别回答价格、付款、流量和客户端问题。想比较服务商App、套餐与设备支持，见[多家VPN推荐与推广](https://github.com/John19187/The-40-Best-VPNs#翻墙客户端与使用方式怎么选)。已有服务的人可从[客户端选择](#airport-clients)进入本款教程，连接失败则先看[本帖的故障判断](#机场连不上了先分清是哪一种)。
+
+各品牌列示的带宽、流媒体支持、SLA和隐私政策来自对应服务资料。比较时连同资料日期、套餐范围和自己的目标地区一起看。
 
 [全部品牌资料](#稳定性价比机场) · [按预算和用途选机场](#airport-budget) · [套餐横向比较](#airport-comparison) · [月付与按量怎么选](#airport-payment) · [客户端选择](#airport-clients) · [购买常见问题](#airport-faq)
 
-<img alt="ji-chang-banner" src="https://github.com/user-attachments/assets/9250df49-2664-468c-8ebf-267c0d90e6fc" />
-
-## 开源维护
-
-- [服务商结构化清单](data/providers.yml)：README 中 43 家服务商的名称、链接与维护状态。
-- [维护方法](docs/methodology.md)：说明数据更新与自动链接检查方式。
-- [贡献指南](CONTRIBUTING.md)：欢迎通过 Issue 或 Pull Request 提交有证据的纠错。
-
-本仓库采用 [MIT License](LICENSE)，通过 GitHub Actions 定期检查数据格式和服务商链接，
-并持续接受社区纠错。服务商商标和其他第三方材料说明见 [NOTICE](NOTICE.md)。
+<img alt="ji-chang-banner" src="assets/review-images/3eea7c85b03a8bd8-original.svg" />
 
 <details>
-<summary><b>目录：全部 43 家机场 · 点击展开</b></summary>
+<summary><b>目录：全部 40 家机场 · 点击展开</b></summary>
 
-[本次新增：秒连云机场](#miaolianyun)
+[稳定性价比机场](#稳定性价比机场) · [WgetCloud机场](#wgetcloud机场) · [杨帆云机场](#杨帆云机场) · [老猫云机场](#老猫云机场) · [Taishan Net 泰山机场](#taishan-net-泰山机场) · [大哥云机场](#大哥云机场) · [桔子云机场](#桔子云机场) · [优信云机场](#优信云机场) · [FSCloud机场](#fscloud机场) · [flowercloud花云机场](#flowercloud花云机场) · [隐云机场](#隐云机场) · [百变小樱机场](#百变小樱机场) · [蚯蚓机场](#蚯蚓机场) · [可乐云机场](#可乐云机场) · [GsouCloud机场](#gsoucloud机场) · [ByWave机场](#bywave机场) · [奶茶Cloud机场](#奶茶cloud机场) · [万城Vcity机场](#万城vcity机场) · [泡芙云机场](#泡芙云机场) · [Web3加速器](#web3加速器) · [飞机云机场](#飞机云机场) · [灯塔Cloud机场](#灯塔cloud机场) · [奈云机场](#奈云机场) · [网际快车 (Flash Express)](#网际快车-flash-express) · [霓虹](#霓虹) · [虫洞云机场](#虫洞云机场) · [小旋风机场](#小旋风机场) · [一云梯机场](#一云梯机场) · [Gatern机场](#gatern机场) · [速鹰666机场](#速鹰666机场) · [一枝红杏机场](#一枝红杏机场) · [BoostNet机场](#boostnet机场) · [悠兔机场](#悠兔机场) · [掌中世界机场](#掌中世界机场) · [WestData西部数据机场](#westdata西部数据机场) · [速云梯机场](#速云梯机场) · [MESL机场](#mesl机场) · [Bitz Net机场](#bitz-net机场) · [蓝帆云](#lanfanyun) · [秒连云机场](#miaolianyun)
 
-[稳定性价比机场](#稳定性价比机场) · [WgetCloud机场](#wgetcloud机场) · [杨帆云机场](#杨帆云机场) · [老猫云机场](#老猫云机场) · [Taishan Net 泰山机场](#taishan-net-泰山机场) · [桔子云机场](#桔子云机场) · [优信云机场](#优信云机场) · [FSCloud机场](#fscloud机场) · [flowercloud花云机场](#flowercloud花云机场) · [大哥云机场](#大哥云机场) · [隐云机场](#隐云机场) · [百变小樱机场](#百变小樱机场) · [蚯蚓机场](#蚯蚓机场) · [超悦机场](#超悦机场) · [小鲤鱼机场](#小鲤鱼机场) · [可乐云机场](#可乐云机场) · [GsouCloud机场](#gsoucloud机场) · [ByWave机场](#bywave机场) · [奶茶Cloud机场](#奶茶cloud机场) · [起帆Cloud机场](#起帆cloud机场) · [万城Vcity机场](#万城vcity机场) · [泡芙云机场](#泡芙云机场) · [Web3加速器](#web3加速器) · [飞机云机场](#飞机云机场) · [灯塔Cloud机场](#灯塔cloud机场) · [奈云机场](#奈云机场) · [网际快车 (Flash Express)](#网际快车-flash-express) · [霓虹](#霓虹) · [虫洞云机场](#虫洞云机场) · [小旋风机场](#小旋风机场) · [一云梯机场](#一云梯机场) · [Gatern机场](#gatern机场) · [速鹰666机场](#速鹰666机场) · [一枝红杏机场](#一枝红杏机场) · [BoostNet机场](#boostnet机场) · [悠兔机场](#悠兔机场) · [掌中世界机场](#掌中世界机场) · [WestData西部数据机场](#westdata西部数据机场) · [速云梯机场](#速云梯机场) · [MESL机场](#mesl机场) · [Bitz Net机场](#bitz-net机场) · [蓝帆云](#lanfanyun) · [按月付、季付与按量需求比较机场](#按月付季付与按量需求比较机场) · [机场连不上了，先分清是哪一种](#机场连不上了先分清是哪一种) · [更新日志](#更新日志) · [秒连云机场](#秒连云机场)
+[按预算和用途选机场](#airport-budget) · [按月付、季付与按量需求比较机场](#按月付季付与按量需求比较机场) · [客户端选择](#airport-clients) · [购买常见问题](#airport-faq) · [机场连不上了，先分清是哪一种](#机场连不上了先分清是哪一种) · [更新日志](#更新日志)
 
 </details>
 
 
-### 注意事项
+### 购买前，把费用、使用方式和线路条件一起看
 
-在选择和使用机场服务时，用户需要注意以下几点：
+本文是多家机场服务的推荐与推广文章，注册入口含推广链接。价格、配额、客户端和线路说明按各品牌段落的资料日期比较。服务商标称带宽、流媒体支持、SLA与隐私政策保留其来源范围。
 
-- **合法合规性**
-   使用机场服务时务必遵守当地法律法规。请确认您所使用的服务在所在国家或地区是允许使用的，避免因违规操作而引发不必要的法律风险。
-- **隐私与安全性**
-   在挑选机场时，建议优先选择那些在数据隐私和安全性上有良好声誉的服务商。注意查看其隐私政策、加密方式以及服务日志政策，确保您的网络数据得到充分保护。
-- **服务稳定性与技术支持**
-   对于要求较高的网络应用，例如远程办公或在线娱乐，稳定性和速度是非常重要的选择标准。建议在决定前参考他人的评测及体验分享，了解运营商在高峰期、系统升级和突发事件处理上的表现。此外，完善的技术支持和及时响应也是衡量服务质量的关键因素。
-- **价格与性价比**
-   市场上的机场服务种类繁多，价格各异。高端机场往往在带宽、服务器覆盖及用户体验上具有更明显的优势，但价格可能相对较高；而便宜机场虽然价格亲民，但在稳定性和服务保障方面可能存在一定差距。在选择前，建议根据自己的实际需求做出平衡判断。
-- **用户评价与实测数据**
-   充分参考其他用户和专业评测机构的反馈和测试数据，能帮助您更全面地了解各家服务的优劣，避免盲目选择。同时，多渠道对比将有助于辨别市场上的真实口碑和潜在风险。
+先看自己的设备能否使用本家App或兼容订阅，再比较一次付款总额、流量重置和设备／IP限制。年付按全年总价支付；按量包还要确认有效期和节点倍率。需要试用或退款时，按该服务明确列出的条件处理。
+
+有隐私、单位网络或特定地区要求，查看对应政策和适用范围。选择时结合所选套餐、使用地区和客户端条件；横向表帮助比较，品牌章节提供具体套餐、图片和注册入口。
+
+选择中转或专线套餐时，要把偶尔断联、入口调整与临时维护纳入日常使用预期。GFW对加密流量识别与干扰的[公开研究](https://gfw.report/publications/usenixsecurity23/en/)说明了跨境连接需要持续维护的技术背景。采用自动换IP机制的服务在AWS入口IP受阻后会切换IP，期间可能有几分钟、甚至10分钟左右的连接空窗。没有任何一家机场或VPN能够始终稳定。
+
+服务调整入口、协议或客户端时，按本家公告更新兼容订阅或官方App；原先支持第三方客户端的服务若改为专用App，先确认自己的设备仍受支持。订阅链接包含个人令牌，保存在自己的客户端中，反馈故障时遮盖订阅、账号和日志中的身份信息。
+
+跨境使用频繁的人，可以按实际成本保留另一条备用连接或少量备用流量，并提前确认客户端能打开、套餐有流量、常用目标能访问。原来可用的多个节点同时失败时，先核对账户有效期、剩余流量和本家公告，再用同一节点比较自己的Wi-Fi与移动网络。是否购买备用、买多少，按工作依赖、已有服务和使用频率决定。
+
+本帖也收录了便宜的入门套餐，方便对照不同预算与使用条件，选购时一起比较价格与服务条件。**不建议购买价格低得异常、运营与退款条件又说不清的超低价机场。** 带宽、服务器、线路维护和客服都需要持续投入，如果没有相应维护和实际交付能力，标出的流量也不一定能按约使用。可能遇到高峰拥挤、限制增加、维护跟不上、频繁迁移，甚至停运或收款后失联；预付周期越长，尚未消费的款项也越多。选购时比较运营记录、实际可用性和明确的试用／退款条款，不只比较月均价，更不要为折扣一次压上很长周期。
+
+<a id="airport-budget"></a>
+
+## 按预算和用途选机场
+
+| 你的需求 | 优先比较 | 选择时抓住什么 |
+|---|---|---|
+| 希望直接使用官方客户端 | [稳定机场](#稳定性价比机场) | 月付100/300/500GB分别¥18/38/53.60；只支持官方专属客户端，不提供Clash或[小火箭](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)等第三方订阅 |
+| 已有第三方客户端，想按专线档位选择 | [WgetCloud](#wgetcloud机场) | 新购按季付与年付比较，基础、优质、精品的每30天流量和可用IP数不同；可用IP与设备数分别核对 |
+| 预算较低，想按月使用 | [泰山](#taishan-net-泰山机场) | 128GB档月付¥13；64GB档从季付¥29起，月均约¥9.67，下单付¥29 |
+| 偶尔使用或准备备用流量 | [泰山总量包](#taishan-net-泰山机场)、[按量选择方法](#airport-payg) | 200GB/¥78、600GB/¥195是总量包，不每月重发；有效期、节点倍率和到期处理按所选套餐核对 |
+| 需要按客户端和节点等级选档 | [杨帆云](#杨帆云机场) | LV1月付¥19.99、100GB、2台设备；按UniClash路线与所选等级的节点范围比较 |
+
+稳定机场适合接受本家客户端路线的用户，WgetCloud侧重套餐等级与第三方订阅选择，泰山可比较周期配额与按量总量，杨帆云按UniClash路线及套餐等级选择。价格按对应段落的资料日期比较，实际可购项以商店为准；线路标称不能替代你所在网络的使用体验。
+
+<a id="airport-clients"></a>
+
+## Clash、小火箭订阅与官方客户端怎么选
+
+已有Clash系列或[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)（小火箭）的配置时，优先确认服务商提供对应的订阅格式。支持Trojan、Shadowsocks或Vmess，是协议层面的条件；能否直接导入，还取决于本家订阅输出和客户端版本。
+
+已经拿到订阅，还没决定电脑、手机或路由器该装哪款，可以对照[2026年机场通用客户端汇总与下载教程](https://github.com/John19187/proxy-client-guides#choose)。准备在电脑或 Android 上用 [FlClash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/flclash/README.md#import)，可直接看[FlClash 安装包选择、导入订阅与连接图解](https://github.com/John19187/proxy-client-guides/blob/main/downloads/flclash/README.md#packages)。手里只有旧版 Clash 教程的，可直接看[旧版识别与迁移步骤](https://github.com/John19187/proxy-client-guides/blob/main/downloads/legacy/README.md#migration)。
+
+| 使用路线 | 可从哪些品牌说明开始看 | 注册前确认什么 |
+|---|---|---|
+| 官方专属客户端 | [稳定机场](#稳定性价比机场)、[杨帆云](#杨帆云机场) | 稳定机场仅官方客户端，不提供第三方订阅；杨帆云按原说明使用UniClash，先确认自己的系统可安装 |
+| 第三方客户端订阅 | [WgetCloud](#wgetcloud机场)、[泰山](#taishan-net-泰山机场) | 读取本家对应系统的教程，选择该客户端的订阅格式，按本人的账户教程处理 |
+
+[Windows与macOS](https://github.com/John19187/proxy-client-guides#desktop)、[Android](https://github.com/John19187/proxy-client-guides#android)、[iPhone与iPad](https://github.com/John19187/proxy-client-guides#ios)的安装来源与导入方式各不相同。按客户端完整名称与发布项目选择；按本家教程核对下载入口、订阅格式与系统权限。需要进一步理解协议和订阅的区别，可看[机场、协议与订阅科普](https://github.com/John19187/ssr-v2ray-trojan-clash-guide#subscription)。
+
+具体软件按对应格式直达教程：Windows／Mac用[Rev导入订阅](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clash-verge-rev/README.md#import)或[v2rayN订阅分组](https://github.com/John19187/proxy-client-guides/blob/main/downloads/v2rayn/README.md#import)，Android用[CMFA完整配置](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cmfa/README.md#import)或[v2rayNG节点订阅](https://github.com/John19187/proxy-client-guides/blob/main/downloads/v2rayng/README.md#import)，iPhone可看[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)、[Stash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/stash/README.md#import)或[Loon](https://github.com/John19187/proxy-client-guides/blob/main/downloads/loon/README.md#import)。路由器对应[OpenClash完整配置](https://github.com/John19187/proxy-client-guides/blob/main/downloads/openclash/README.md#import)与[PassWall节点订阅](https://github.com/John19187/proxy-client-guides/blob/main/downloads/passwall/README.md#import)，前提都是本家明确支持。
+
+订阅地址包含个人账户信息，导入自己的客户端即可，不要发到公开群、截图或评论区。稳定机场用户直接走官方客户端路线，不需要寻找第三方转换链接。
 
 
 ## 稳定性价比机场
@@ -63,7 +85,7 @@
 👉 **[稳定机场官网注册入口](https://so.dianlanla.com/xingyun2)**
 
 
-![image](https://github.com/user-attachments/assets/9eaa9c40-ab38-48ca-8235-209baa40f592)
+[![image](assets/review-images/3a471828d5564921-original.png)](assets/review-images/3a471828d5564921-original.png)
 
 ### 以下是该平台的几大亮点：
 
@@ -81,7 +103,7 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
   服务网络覆盖香港、台湾、日本、韩国、新加坡、泰国、马来西亚、美国、德国、英国、法国、意大利、西班牙、澳大利亚、加拿大、荷兰、瑞典、俄罗斯、哥伦比亚、南非、印度、巴西、墨西哥、印尼、瑞士等50个边缘区域，无论您身处何地，都能享受到高质量的网络服务。
 
 - **全天候技术支持**  
-  内置24小时在线客服系统，遇到任何问题均可获得快速响应和技术解决方案，让您无后顾之忧。
+  资料列有24小时在线客服入口，具体受理与回复速度需按本家实际安排核对。
 
 - **高性价比优势**  
   月付、年付和一次性流量可按预算与实际用量分别比较。
@@ -90,13 +112,13 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
   适合需要日常连接的用途，选购时可重点关注入口维护、故障恢复与自己网络下的使用表现。
 
 - **持续用户回馈**  
-  较高的复购率证明了用户对稳定机场服务的认可，信赖和满意度不断提升。
+  续费前可核对当前套餐、客户端数量与常用线路是否仍满足需求。
 
 - **严密隐私保护**  
-  为科研机构、外贸公司、科技博主及其他对隐私有高要求的用户提供专属、私密的网络体验，切实保障数据安全。
+  有科研、外贸或其他保密需求时，另行核对日志政策、客户端与单位使用要求；不能用专线或加密名称代替隐私审查。
 
 - **专属自研客户端**  
-  简洁易用的客户端设计，适合所有层次用户，即便是网络新手也能轻松上手。目前仅支持官方专属客户端，不再提供用于Clash、Shadowrocket等第三方客户端的订阅链接。
+  简洁易用的客户端设计，适合所有层次用户，即便是网络新手也能轻松上手。目前仅支持官方专属客户端，不再提供用于Clash、[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)等第三方客户端的订阅链接。安装前可对照[专属App与第三方订阅的区别](https://github.com/John19187/proxy-client-guides#client-compatibility)，具体软件仍从本家教程获取。
 
 ### 月付套餐
 
@@ -118,7 +140,7 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 | 特惠限量Pro    | ¥176.00  | 2400GB     | 20           | 5000Mbps |
 | 特惠限量Ultra  | ¥226.00  | 3600GB     | 30           | 5000Mbps |
 
-📟 **一次性流量：页面列示¥48/200GB、¥109/500GB、¥279/1500GB、¥499/3200GB。** 较大两档的流量口径仍需向客服确认；不限时总量与年付每月重置配额分开比较，标称带宽不代表实际测速。
+📟 **一次性流量：页面列示¥48/200GB、¥109/500GB、¥279/1500GB、¥499/3200GB。** 较大两档的流量口径仍需向客服确认；不限时总量与年付每月重置配额分开比较。
 
 ### 优惠码与适用套餐
 
@@ -143,14 +165,14 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
    主要用于网页浏览、简单互动（如使用ChatGPT）的用户，建议选择轻量版月付或参与限时优惠的年付套餐，满足基础需求的同时实现成本控制。
 
 2. **中度使用者**  
-   经常观看视频及流媒体服务的用户，可优先考虑限量优惠的专业版年付套餐，此选项在流量和速度上都能提供更优体验，是性价比最高的选择。
+   经常观看视频及流媒体服务的用户，先按月用量对照专业版月付¥38/300GB与年付¥226、每月300GB的档位；同时比较设备上限和首次付款，不把折扣当作速度保证。
 
 3. **重度使用者**  
-   对多终端同时在线、频繁进行高清及超清视频播放需求较高的用户，建议选用专业版年付套餐，以确保在高负载下依旧拥有流畅稳定的网络环境。
+   多终端同时在线、视频用量较高时，可比较高级版月付¥53.60/500GB/20台与年付档的流量、设备数量；两项限制分别核对，选择能覆盖实际需求的组合。
 
 > **套餐选择**：月付按每月额度比较，年付按全年应付金额和各月额度比较；一次性流量包按总量及有效期比较。客户端数与标称速率按所选档位，第三方订阅用户需选择其他支持通用订阅的服务。
 
-
+文中部分链接可能帮助承担服务器、域名等维护成本，推荐依据不因此改变。
 
 
 ------
@@ -159,18 +181,17 @@ ChatGPT、YouTube、Netflix等热门平台，轻松解锁，带给您8K超清画
 
 WgetCloud（原 GaCloud）主打多线BGP中转与双程CN2线路，在香港设有机房，套餐分基础、优质与精品三档。WgetCloud 团队在开业前已有技术经验储备，主要成员在海外；选择时可以把常用地区、流量、可用IP数与套餐等级一起比较。
 
-WgetCloud 机场使用的早期支持 Shadowsocks 、SSR、V2ray（vmess）、Trojan协议，自 2023 年末开始仅开放 Trojan 协议的订阅格式支持，兼容目前几乎主流的订阅软件
+WgetCloud 机场使用的早期支持 Shadowsocks 、SSR、V2ray（vmess）、Trojan协议，自 2023 年末开始仅开放 Trojan 协议的订阅格式支持，兼容目前几乎主流的订阅软件。已经复制本人订阅时，可按[Clash Verge Rev导入与选节点](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clash-verge-rev/README.md#import)或[Shadowrocket导入步骤](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)操作。
 
 👉 **[WgetCloud机场官网注册入口](https://so.dianlanla.com/wgetcloud)**
 
 
-![image](https://github.com/user-attachments/assets/7dc19a26-db2c-421e-9a3e-ace06ebcc60c)
-
+[![image](assets/review-images/ed3e875eade9440b-original.png)](assets/review-images/ed3e875eade9440b-original.png)
 
 
 ### 📊 **WgetCloud 套餐价格对比表**
 
-新购个人套餐按季付、年付选型。官方帮助中心列出的月流量与可用IP数如下；应付金额见个人套餐商店，可用IP数不等于同时在线设备数。
+新购个人套餐按季付、年付选型。官方帮助中心列出的月流量与可用IP数如下；应付金额见个人套餐商店，可用IP与同时在线设备数分别核对。
 
 | 等级 | 季付：每30天流量 | 年付：每30天流量 | 可用IP数 | 标称限速 |
 |---|---:|---:|---:|---:|
@@ -178,7 +199,7 @@ WgetCloud 机场使用的早期支持 Shadowsocks 、SSR、V2ray（vmess）、Tr
 | 优质 | 250G | 320G | 4 | 300Mbps |
 | 精品 | 270G | 360G | 5 | 500Mbps |
 
-[WgetCloud官方套餐说明](https://help-info.wgetcloud.org/zh/article/5awx6asq5yy65yirloacies7gos5ioikguecuseo5zcr6lst5lmw5rwb56ilkq-1oeyl5w/)说明新购范围；既有订单以订单中心的权益为准。下表保留过往付款与流量规格，方便旧用户对照，新的购买选择按上表及商店可购项判断。
+WgetCloud官方套餐说明按新购与既有订单区分权益；既有订单以订单中心为准。下表保留过往付款与流量规格，方便旧用户对照，新的购买选择按上表及商店可购项判断。
 
 | 套餐等级     | 月付 | 流量/月 | 季付 | 流量/月 | 年付 | 流量/月 |
 | ------------ | ---- | ------- | ---- | ------- | ---- | ------- |
@@ -202,13 +223,13 @@ WgetCloud 机场使用的早期支持 Shadowsocks 、SSR、V2ray（vmess）、Tr
 
 2025 年才上线的杨帆云，走的是 IEPL 隧道叠 BGP 中转的双层线路，账号能连到哪些节点直接跟套餐档位挂钩——低档位只开放国内中转，往上加钱才逐级解锁香港、台湾、日本、新加坡、美国的专线池，LV4 和旗舰版才能拿到全 IEPL。这种「按档位分线路」在同价位机场里不算主流，多数是全档位同线路、只差流量，杨帆云反过来把线路质量也做成了升级项。
 
-- 协议只支持 V2Ray/Vmess，官方要求走自研客户端 UniClash，第三方 Clash Verge、Shadowrocket 在新版加密下连不稳，认准自家客户端再下单。
+- 协议只支持 V2Ray/Vmess，官方要求走自研客户端 UniClash，第三方 [Clash Verge](https://github.com/John19187/proxy-client-guides/blob/main/downloads/old-clash-verge/README.md#migration)、[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import) 在新版加密下连不稳，认准自家客户端再下单。
 - 峰值带宽 2000Mbps，但只有 LV4、旗舰版这两档能吃满。
 - 流媒体、ChatGPT 的解锁效果跟着节点等级走，低档位只挂国内中转，能不能连上全看运气。
 
 👉 **[杨帆云机场官网注册入口](https://so.dianlanla.com/yangfan)**
 
-![杨帆云机场官网套餐](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/yangfan-airport.jpg)
+[![杨帆云机场官网套餐](assets/review-images/9c4413f5ff9747ba-original.jpg)](assets/review-images/9c4413f5ff9747ba-original.jpg)
 
 ### 套餐一览
 
@@ -244,11 +265,7 @@ Trojan协议：采用TLS加密，提高安全性和隐蔽性。
 👉 **[老猫云机场官网注册入口](https://so.dianlanla.com/laomao)**
 
 
-
-
-
-
-![image](https://github.com/user-attachments/assets/a1d7abf3-62be-4129-b61b-772513990881)
+[![image](assets/review-images/88fc61706dfdfc57-original.png)](assets/review-images/88fc61706dfdfc57-original.png)
 
 ### 套餐表格  
 
@@ -259,8 +276,6 @@ Trojan协议：采用TLS加密，提高安全性和隐蔽性。
 | **D套餐** | ¥30.00  | 月付     | 200G     | 原资料3天，按当前条款确认 | 300Mbps  | IEPL专线，资料列有Netflix/TVB/Hulu与UDP转发 |
 | **E套餐** | ¥40.00  | 月付     | 300G     | 原资料7天，按当前条款确认 | 400Mbps  | IEPL专线，资料列有Netflix/TVB/Hulu与UDP转发 |
 | **F套餐** | ¥150.00 | 季付     | 500G     | 原资料7天，按当前条款确认 | 500Mbps  | IEPL专线，资料列有Netflix/TVB/Hulu与UDP转发 |
-
-
 
 
 ------
@@ -275,7 +290,7 @@ Trojan协议：采用TLS加密，提高安全性和隐蔽性。
 | 每月256GB | ¥24 | ¥63 | ¥117 | ¥195 |
 | 每月512GB | ¥42 | ¥112 | ¥208 | ¥350 |
 
-按量包另为总量200GB/¥78、600GB/¥195。64GB档最低付¥29买一季，月均约¥9.67仅用于比较，不能当成月付产品；页面说明无退款政策。下方旧表与原图保留作历史对照，购买前再核当前结算金额。
+按量包另为总量200GB/¥78、600GB/¥195。64GB档最低付¥29买一季，折算月均约¥9.67；页面说明无退款政策。下方旧表与原图保留作历史对照，购买前再核当前结算金额。
 
 
 Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成立于2023年5月。它提供月度配额和按量总量包两种选择：64GB档从季付¥29起，128GB档可月付¥13，其他周期见上表。流媒体、ChatGPT等用途还需对应所选节点和地区。
@@ -287,18 +302,16 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 
 付款方式：支持支付宝、微信和USDT付款。
 
-客户端支持：兼容Clash for Windows、Clash for Android、Shadowrocket等客户端。
+客户端支持：兼容[Clash for Windows](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cfw/README.md#migration)、[Clash for Android](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cfa/README.md#migration)、[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)等客户端。旧教程中的软件名称和下载包，按[旧版识别与迁移步骤](https://github.com/John19187/proxy-client-guides/blob/main/downloads/legacy/README.md#migration)核对，不沿用历史包下载入口。
 
 服务特点：不限速，不限制同时在线设备数，0日志政策。
 
-优点：价格亲民，适合预算有限的用户；TG群氛围良好，客服响应快速
+128GB档可按月购买，64GB档从季付起购；预算比较时把首次付款与每月额度分开看。支持渠道包括站内工单与本家群组，回复速度未作验证。
 
 👉 **[泰山机场官网注册入口](https://so.dianlanla.com/taishan)**
 
 
-
-
-![image](https://github.com/user-attachments/assets/5d08e354-3ea1-469b-95fa-3c8d15f674b7)
+[![image](assets/review-images/04c1aba73ed67299-original.png)](assets/review-images/04c1aba73ed67299-original.png)
 
 ### **月付与季付起购套餐**
 
@@ -327,12 +340,63 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 - **SecureX安全隧道加密协议**：站方介绍其加密隧道功能；隐私保护仍需结合客户端、账号和日志政策判断。
 - **国内三线骨干网入口**：确保网络稳定性。
 - **负载均衡技术**：优化网络性能。
-- **工单技术支持+专属售后群**：提供专业的售后服务。
+- **支持渠道**：站内工单与本家群组，具体入口从已保存的官网查看。
 
 
 ------
 
 ------
+## 大哥云机场
+
+### 大哥云套餐补充（资料日期：2026-09-07）
+
+| 档位 | 实际付款 | 流量口径 |
+|---|---:|---|
+| 单月A | ¥19.90/月 | 每月100GB |
+| 单月B | ¥29.00/月 | 每月150GB |
+| 季付A | ¥69/季 | 每月200GB |
+| 年付A | ¥199/年 | 每月300GB |
+| 年付B | ¥299/年 | 每月500GB |
+| 小流量年付 | ¥88/年 | 每月15GB |
+
+旧150GB月付¥29.90按该记录更正为¥29.00；旧年付1000GB档不在这份六档目录中。说明写新疆地区不可用、不支持原路退款，部分套餐按订单日重置。原表与配图保留，套餐区别以日期明确的新记录作参照。
+
+大哥云机场是一家成立于2020年的VPN梯子机场，主打高质量稳定的翻墙线路。该机场使用Trojan协议，支持V2Ray订阅链接一键订阅，适用于Android、iOS、macOS、路由器、Windows等多种平台。准备在路由器导入时，先按[OpenWrt客户端与固件检查](https://github.com/John19187/proxy-client-guides#router)确认设备条件，再用本家对应配置。
+
+特点
+- **节点分布**：覆盖台湾、新加坡、日本、泰国、美国、英国、菲律宾、越南、韩国、香港等国家和地区
+- **流媒体解锁**：支持解锁Netflix、Disney+、TikTok等流媒体服务
+- **不限设备数量**：支持多设备同时在线使用
+- **自研客户端**：提供Windows、macOS、iOS、Android等平台的客户端
+- **付款方式**：支持支付宝和微信支付
+
+
+2026年11月已收官网资料列有9折码`mcuE8uOq`，但未注明截止日；300GB与500GB年付套餐原文提及该码，当前是否可用需在对应订单核对。
+
+👉 **[大哥云机场官网注册入口](https://so.dianlanla.com/dageyun)**
+
+###  套餐详情介绍
+
+| 套餐 | 价格 | 时长 | 每月流量 | 最大带宽 | 其他特点 |
+|------|------|------|---------|---------|---------|
+| **VIP1 小流量年付**  | ¥88.00 | 1年 | 15GB | 500 Mbps | 新疆不可用，不支持退款 |
+| **年付套餐A** | ¥199.00 | 1年 | 300GB | 1000 Mbps | 新疆不可用，优惠适用性见本节说明 |
+| **年付套餐B** | ¥299.00 | 1年 | 500GB | 1000 Mbps | 新疆不可用，优惠适用性见本节说明 |
+| **年付套餐 1000GB** | ¥699.00 | 1年 | 1000GB | 1000 Mbps | 新疆不可用，未核实该档优惠 |
+| **季付套餐A** | ¥69.00 | 3个月 | 200GB | 1000 Mbps | 新疆不可用，不支持退款 |
+| **单月套餐A** | ¥19.90 | 1个月 | 100GB | 500 Mbps | 新疆不可用，不支持退款 |
+| **单月套餐B** | ¥29.00 | 1个月 | 150GB | 500 Mbps | 新疆不可用，不支持退款 |
+ **推荐选择**
+
+- **轻度使用（日常浏览）** → VIP1 小流量（¥88.00/年）
+- **中等需求（流媒体使用）** → 套餐A 按年付（¥199.00/年）
+- **高流量需求（大规模下载）** → 套餐B 按年付（¥299.00/年）
+[![image](assets/review-images/3c558daa64ff1b15-original.png)](assets/review-images/3c558daa64ff1b15-original.png)
+
+<img width="1200" height="939" alt="机场推荐26" src="assets/review-images/328c39e1467c44eb-original.png" />
+
+------
+
 ## 桔子云机场
 桔子云（JuziCloud）是一家成立于2020年的专业SSR/V2Ray机场，提供高质量的网络加速服务。该机场拥有近50个付费节点，全部使用CN2/BGP隧道中转和IPLC国际专线，适合各类用户需求。
 
@@ -348,8 +412,7 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 客户端支持：在Android、iOS、macOS、Windows、Linux等平台都有客户端可用。
 
 
-
-特惠包年7折优惠代码：JJ369 限于时效性，最新优惠码，询问在线客服即可获得。
+2026年11月已收官网双十一公告列有年费7折码`juzi778`，截止2026年11月30日。已有套餐的用户，公告要求从首页“升级套餐”入口购买；是否适用所选订单以结算结果为准。
 
 👉 **[桔子云机场官网注册入口](https://so.dianlanla.com/juziyun)**
 
@@ -361,7 +424,7 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 | **基础版** | ¥29.99 | 月付 | 200GB | 150Mbps | 3台 | 支持SSR/V2ray，国内中转节点，解锁流媒体，可用入门+基础版节点 |
 | **标准版** | ¥39.99 | 月付 | 350GB | 300Mbps | 5台 | 支持SSR/V2ray，国内中转节点，解锁流媒体，可用入门+基础+标准版节点 |
 
-![image](https://github.com/user-attachments/assets/0a805302-359e-4bac-80fd-91c56daa12ca)
+[![image](assets/review-images/29129a16e01c5439-original.png)](assets/review-images/29129a16e01c5439-original.png)
 
 ------
 ## 优信云机场
@@ -369,11 +432,11 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 
 想要冷门国家的 IP 出口，去哪找？优信云走专线 Trojan 协议，卖点是节点铺得广——官网列出的可用地区超过 100 个，除了美国、日本、香港、台湾、韩国这些核心节点，还有大量长尾地区可选，适合对小众落地点有实际需求的用户，比如需要特定国家 IP 做流媒体解锁。
 
-最低档月付十几元、100GB 流量、限速 200Mbps、2 台设备。计费周期 30 天，按月自然重置流量，不是从注册日起算。年付有折扣码可以问客服，长期用比按月续更划算。
+最低档月付十几元、100GB 流量、限速 200Mbps、2 台设备。计费周期 30 天，按月自然重置流量，不是从注册日起算。年付需比较订单应付总额与流量规则，未核实的优惠不计入价格。
 
 👉 **[优信云机场官网注册入口](https://so.dianlanla.com/youxin)**
 
-![优信云机场官网套餐](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/youxin-airport.jpg)
+[![优信云机场官网套餐](assets/review-images/3b51125670db3507-original.jpg)](assets/review-images/3b51125670db3507-original.jpg)
 
 ------
 
@@ -381,10 +444,9 @@ Taishan Net（泰山机场）是一家由海外团队运营的机场服务，成
 FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用户体验。使用最新的协议hysteria2 协议。节点状态为bgp，电信用户自动分配为azure的入口，移动联通自动分配aws入口。netflix等主流流媒体解锁。
 
 
-
-![image](https://github.com/user-attachments/assets/1e3338dc-380a-4575-8bd9-8789830a16d3)
+[![image](assets/review-images/d4f1eaf7ac9f49dd-original.png)](assets/review-images/d4f1eaf7ac9f49dd-original.png)
 ###  优惠码
-新用户请先免费试用 3 天10.00 GB;  限于时效性，最新优惠码，询问在线客服即可获得。
+2026年11月已收官网说明列有新用户免费试用3天，并提醒购买后不支持退款；试用流量额度未核实，当前优惠码也未核实。
 ###  套餐详情介绍
 
 
@@ -406,10 +468,6 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 **FlowerCloud花云机场**整合了国内多家运营商的网络，采用 **BGP智能分配线路**，结合多年的技术积累与创新，致力于为用户提供卓越的极速网络体验。所有海外线路均通过全球领先的数据中心和 **运营商直签专线** 提供支持，确保 **低延迟** 和 **大带宽** 的数据传输。
 
 该平台的线路覆盖了全球多个地区，包括 **香港、台湾、日本、新加坡、美国** 等地，广泛涵盖了 **亚洲、欧洲和美洲**，让用户能够在全球范围内享受快速稳定的网络服务。
-
-
-
-
 
 
 ### 优惠码
@@ -436,58 +494,6 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 ------
 
-## 大哥云机场
-
-### 大哥云套餐补充（资料日期：2026-09-07）
-
-| 档位 | 实际付款 | 流量口径 |
-|---|---:|---|
-| 单月A | ¥19.90/月 | 每月100GB |
-| 单月B | ¥29.00/月 | 每月150GB |
-| 季付A | ¥69/季 | 每月200GB |
-| 年付A | ¥199/年 | 每月300GB |
-| 年付B | ¥299/年 | 每月500GB |
-| 小流量年付 | ¥88/年 | 每月15GB |
-
-旧150GB月付¥29.90按该记录更正为¥29.00；旧年付1000GB档不在这份六档目录中。说明写新疆地区不可用、不支持原路退款，部分套餐按订单日重置。原表与配图保留，套餐区别以日期明确的新记录作参照。
-
-大哥云机场是一家成立于2020年的VPN梯子机场，主打高质量稳定的翻墙线路。该机场使用Trojan协议，支持V2Ray订阅链接一键订阅，适用于Android、iOS、macOS、路由器、Windows等多种平台
-
-特点
-- **节点分布**：覆盖台湾、新加坡、日本、泰国、美国、英国、菲律宾、越南、韩国、香港等国家和地区
-- **流媒体解锁**：支持解锁Netflix、Disney+、TikTok等流媒体服务
-- **不限设备数量**：支持多设备同时在线使用
-- **自研客户端**：提供Windows、macOS、iOS、Android等平台的客户端
-- **付款方式**：支持支付宝和微信支付
-
-
-
-9折优惠券：mcuE8uOq 
-
-👉 **[大哥云机场官网注册入口](https://so.dianlanla.com/dageyun)**
-
-###  套餐详情介绍
-
-| 套餐 | 价格 | 时长 | 每月流量 | 最大带宽 | 其他特点 |
-|------|------|------|---------|---------|---------|
-| **VIP1 小流量年付**  | ¥88.00 | 1年 | 15GB | 500 Mbps | 新疆不可用，不支持退款 |
-| **年付套餐A** | ¥199.00 | 1年 | 300GB | 1000 Mbps | 新疆不可用，9折优惠券：mcuE8uOq |
-| **年付套餐B** | ¥299.00 | 1年 | 500GB | 1000 Mbps | 新疆不可用，9折优惠券：mcuE8uOq |
-| **年付套餐 1000GB** | ¥699.00 | 1年 | 1000GB | 1000 Mbps | 新疆不可用，9折优惠券：mcuE8uOq |
-| **季付套餐A** | ¥69.00 | 3个月 | 200GB | 1000 Mbps | 新疆不可用，不支持退款 |
-| **单月套餐A** | ¥19.90 | 1个月 | 100GB | 500 Mbps | 新疆不可用，不支持退款 |
-| **单月套餐B** | ¥29.90 | 1个月 | 150GB | 500 Mbps | 新疆不可用，不支持退款 |
- **推荐选择**
-
-- **轻度使用（日常浏览）** → VIP1 小流量（¥88.00/年）
-- **中等需求（流媒体使用）** → 套餐A 按年付（¥199.00/年）
-- **高流量需求（大规模下载）** → 套餐B 按年付（¥299.00/年）
-![image](https://github.com/user-attachments/assets/4b22a65a-9414-4773-981b-f2f2505af166)
-
-<img width="1200" height="675" alt="机场推荐26" src="https://github.com/user-attachments/assets/564db11c-569b-45cd-b7b1-6b674777478e" />
-
-------
-
 ## 隐云机场
 
 
@@ -496,7 +502,7 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 👉 **[隐云机场官网注册入口](https://so.dianlanla.com/yinyun)**
 
 
-<img width="1491" height="737" alt="隐云机场套餐" src="https://github.com/user-attachments/assets/75431bcf-5490-42e8-94ca-fd45bd61841f" />
+<img width="1491" height="1065" alt="隐云机场套餐" src="assets/review-images/e1cb112681d4892d-original.png" />
 
 ### 机场套餐
 
@@ -516,38 +522,32 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 ------
 ## 百变小樱机场
-百变小樱机场，全线节点提供流媒体节点Netflix/ChatGPT/Disney等全时段保障解锁，包含原生节点，并且提供IEPL专线节点，严控期间也不用担心无法使用 稳定有保障。
+百变小樱机场的资料列有Netflix、ChatGPT、Disney等服务支持、原生节点和IEPL专线。是否能访问自己的目标平台，要在所选节点上验证。
 
 百变小樱提供注册免费24小时试用10GB，先试用再购买。
 
 提供官网的Windows版、安卓版定制客户端。
 
 
-
-
-![image](https://github.com/user-attachments/assets/af51b917-2a14-4fe9-9ae9-93ee9a8e3dbf)
+[![image](assets/review-images/025a65fa0f0944e5-original.png)](assets/review-images/025a65fa0f0944e5-original.png)
 
 
 ###  套餐详情介绍
-
 
 
 | **套餐**        | **价格** | **时长**  | **流量**  | **速率 & 特色**                      | **适合人群**             |
 |---------------|---------|--------|---------|--------------------------------|------------------|
 | **BASIC-初级套餐** | ¥98     | 365天   | 50GB/月  | 100Mbps，SSR协议，流媒体解锁 | **轻度用户**        |
 | **PRO-初级1月**  | ¥15     | 30天    | 100GB   | 100Mbps，SSR协议，流媒体解锁 | **短期使用，灵活购买** |
-| **PRO-初级3月**  | ¥45     | 90天    | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **季付优惠**        |
-| **PRO-初级6月**  | ¥90     | 180天   | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **半年付折扣**      |
-| **PRO-初级12月** | ¥180    | 365天   | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **年付最划算**      |
+| **PRO-初级3月**  | ¥45     | 90天    | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **一次支付3个月**        |
+| **PRO-初级6月**  | ¥90     | 180天   | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **一次支付半年**      |
+| **PRO-初级12月** | ¥180    | 365天   | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **一次支付一年**      |
 | **PRO-初级3年**  | ¥540    | 1095天  | 100GB/月 | 100Mbps，SSR协议，流媒体解锁 | **长期用户**        |
 
 ---
 
  🎯 **推荐选择**
-✅ **短期尝试** 👉 **PRO-初级1月 ¥15**  
-✅ **稳定性价比** 👉 **PRO-初级3月 ¥45**  
-✅ **最划算方案** 👉 **PRO-初级12月 ¥180**（长线使用最便宜）  
-✅ **超长期需求** 👉 **PRO-初级3年 ¥540**（锁定优惠价）  
+每月用量不超过50GB时，可比较BASIC年付¥98与PRO月付¥15的流量及首次支出。需要100GB/月时，上表PRO的月、季、半年、年和三年付按月折算均为¥15，没有列出长期预付折扣；选择主要取决于付款周期。
 
 📌 **所有套餐支持**：
 - **100Mbps速率**
@@ -561,8 +561,6 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 
 ## 蚯蚓机场
 通过蚯蚓机场提供的服务器节点，可以在中国大陆及世界各地访问Google，Instagram，Facebook，观看YouTube，Netflix，使用telegram，WhatsApp等网站或APP。
-
-
 
 
  ### **套餐详情**  
@@ -588,72 +586,10 @@ FSCloud机场是直连线路,入口为 Azure AWS 亚太, 最大限度保障用�
 - **直播、电商专属** → **抖咖传媒 ¥88/月（240GB）**
 - **长期备用流量** → **一次性套餐（无到期限制）**
 
-![image](https://github.com/user-attachments/assets/cce47ffe-5d0b-4017-8487-f9eb01d0b268)
-
+[![image](assets/review-images/2ac530462d4a037d-original.png)](assets/review-images/2ac530462d4a037d-original.png)
 
 
 ------
-## 超悦机场
-
-超悦机场使用先进的Hysteria1/2协议，并且起步价格为6.8元包月使用500G流量，线路节点遍布全球多个国家，并且使用机场界领先的技术对您进行服务。全程保障您的安全与速度与稳定性兼顾，打造最舒适的科学上网环境尽在超悦！
-
-👉 **[超悦机场官网注册入口](https://so.dianlanla.com/chaoyue)**
-
-
-
-![image](https://github.com/user-attachments/assets/4a36e56e-cd4b-4702-8752-537e88ca6f22)
-
-###  套餐详情介绍
-
-
-| 套餐名称   | 价格      | 流量   | 速率        | 设备数 |
-| ---------- | --------- | ------ | ----------- | ------ |
-| 500G-星星  | ¥6.80/月  | 500GB  | 最高300Mbps | 不限   |
-| 1000G-月亮 | ¥13.60/月 | 1000GB | 最高400Mbps | 不限   |
-| 2000G-太阳 | ¥20.40/月 | 2000GB | 不限速      | 不限   |
-| 5000G-皇冠 | ¥27.20/月 | 5000GB | 不限速      | 不限   |
-
-### **特点**
-
-- **Hysteria协议**：支持最牛Hysteria协议，提供极低延迟和高性能的网络体验。
-- **流媒体解锁**：支持解锁Netflix、Disney+、ChatGPT等流媒体服务。
-- **全平台支持**：适用于Windows、macOS、iOS、Android等多种操作系统。
-- **不限设备数量**：支持多设备同时在线使用。
-- **万兆接入**：提供高速稳定的网络连接。
-
----
-## 小鲤鱼机场
-
-小鲤鱼机场震撼上线全新的Hysteria2协议，较为上一代，它进行了诸多的优化，请全体用户更新客户端与更新订阅即可看到全新的HY2节点啦！它几乎是质的飞跃！并提供专属傻瓜客户端，更新订阅即可
-
-👉 **[小鲤鱼机场官网注册入口](https://so.dianlanla.com/xiaoliyu)**
-
-
-
-
-![image](https://github.com/user-attachments/assets/5f661b50-90d4-4148-a654-747aec0ed9f9)
-
-###  套餐详情介绍
-
-| **套餐名称** | **价格**  | **流量**   | **设备数** | **带宽** | **适用人群** |
-| ------------ | --------- | ---------- | ---------- | -------- | ------------ |
-| 1000G-青铜   | ¥6.80/月  | 1000GB/月  | 不限       | 300Mbps  | 基础用户     |
-| 2000G-白银   | ¥10.00/月 | 2000GB/月  | 不限       | 不限速   | 普通用户     |
-| 6000G-黄金   | ¥24.00/月 | 6000GB/月  | 不限       | 不限速   | 重度用户     |
-| 18000G-铂金  | ¥60.00/月 | 18000GB/月 | 不限       | 不限速   | 专业用户     |
-
-- 套餐推荐
-
-  **入门推荐：**1000G-青铜套餐
-  适合基础上网需求，性价比高
-  **性价比之选：**2000G-白银套餐
-  不限速+充足流量，满足日常使用
-  **重度用户首选：**6000G-黄金套餐
-  大流量需求，稳定高速
-  **专业用户方案：**18000G-铂金套餐
-  超大流量，企业级使用需求
-
-
 ## 可乐云机场
 可乐云机场成立于2021年，专注于提供高质量的网络加速服务。该平台拥有超过100个优质线路节点，包括电信CN2线路、移动CMI国际线路以及众多IEPL国际专线。可乐云以其速度快、节点稳定的特点而闻名，并为用户提供可定制的原生千兆独享节点。
 **特点**
@@ -670,8 +606,6 @@ IEPL专线：提供高性能的国际网络连接，适合游戏加速和商务�
 👉 **[可乐云机场官网注册入口](https://so.dianlanla.com/keyun)**
 
 
-
-
 ###  套餐详情介绍
 
 | 套餐 | 价格 | 计费方式 | 每月流量 | 速率 | 其他特点 |
@@ -683,7 +617,7 @@ IEPL专线：提供高性能的国际网络连接，适合游戏加速和商务�
 | **中级版** | ¥48.00 | 月/季/半年/年 | 500GB | 300Mbps+ | Trojan/SS/Hysteria协议，全球20+国家/60+节点，支持AI工具 & 流媒体 |
 | **企业版** | ¥58.00 | 月/季/半年/年 | 800GB | 300Mbps+ | Trojan/SS/Hysteria协议，全球20+国家/60+节点，支持AI工具 & 流媒体 |
 
-![image](https://github.com/user-attachments/assets/2a903283-0db7-4c59-b7e4-d7ea8f4cd14d)
+[![image](assets/review-images/33136a1789f3ba1d-original.png)](assets/review-images/33136a1789f3ba1d-original.png)
 
 ------
 ## GsouCloud机场
@@ -693,8 +627,7 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 👉 **[GsouCloud机场官网注册入口](https://so.dianlanla.com/gsoucloud)**
 
 
-
-![image](https://github.com/user-attachments/assets/35f06e36-855b-4f8b-bf41-664ad0dc2a67)
+[![image](assets/review-images/36a7bb4662f8c7bf-original.png)](assets/review-images/36a7bb4662f8c7bf-original.png)
 
 ### 🌟 **SIMPLE / LITE / PRO / ULTRA 套餐详情对比表**  
 
@@ -704,7 +637,6 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 | **LITE**      | ¥30    | -      | -      | -       | 150GB/月   | 8个设备    | 100Mbps   | LITE版      | 基础/专线节点 | 适合中度流媒体使用 |
 | **PRO**       | ¥35    | -      | -      | -       | 225GB/月   | 10个设备   | 100Mbps   | PRO版       | 基础/专线节点 | 高度流媒体用户     |
 | **PRO ULTRA** | -      | -      | -      | ¥1499   | 18888GB/年 | 30个设备   | 100Mbps   | PRO版       | 基础/专线节点 | 超级用户/多设备需求 |
-
 
 
  🎯 **推荐建议**
@@ -719,7 +651,7 @@ Gsou Cloud机场高速稳定体验宛若身在海外的访问速度，服务适�
 
 ### ByWave周期与流量补充（资料日期：2026-09-07）
 
-Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付¥110、每月1TiB；Special是年付¥140、全年总量200GiB且不重置，不能当作每月200GiB。Gold与Platinum页面列有Emby账号权益，是否仍提供以当前套餐说明为准。
+Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付¥110、每月1TiB；Special是年付¥140、全年总量200GiB且不重置。Gold与Platinum页面列有Emby账号权益，是否仍提供以当前套餐说明为准。
 
 套餐字段与界面文字的设备限制存在差异，不给出确定设备数；经营状态的既有问题仍待核。本段用于补充套餐结构，不把较晚的9月15日截图日期当成正文重新采集日。原图文及完整表格保留。
 
@@ -735,30 +667,20 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 👉 **[ByWave机场官网注册入口](https://so.dianlanla.com/bywave)**
 
 
-
-![image](https://github.com/user-attachments/assets/d19522b8-7493-4cc2-9067-f8010498f8d6)
-
+[![image](assets/review-images/25e532f08208828d-original.png)](assets/review-images/25e532f08208828d-original.png)
 
 
 ###  优惠码
-8折: 0504
-
-7折: C70ZGTUR5L 
-
-🎁 **充值促销活动**
-> ✅ **满 ¥100 即享赠金优惠！**<br>
-> 充值越多，额外返利越多，配合套餐使用更划算！
->
-> 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料中的折扣码与充值赠金未核实当前期限、适用套餐及赠金规则，不计入下表价格。
 
 ### 🧾 **套餐列表与详情**
 
 | 套餐名      | 价格             | 流量政策                        | 节点&解锁服务                        | 速率/设备限制            | 流量重置 | 手动重置 | 其他说明 |
 |-------------|------------------|----------------------------------|--------------------------------------|---------------------------|------------|-------------|----------|
-| **Special** | ¥140 / 360天     | ✅ **200GB/年** <br>❌ 不可续费 | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT | 🚫 限速：**100Mbps**<br>🔟 设备 | ❌ 不重置 | ❌ 无法重置 | 一次性买断 |
-| **Bronze**  | ¥30 / 月         | ✅ 150GB/月                     | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT | ✅ **500Mbps**<br>🔟 设备 | ✅ 每月购买日 | ¥24 | 实用型月付 |
-| **Gold** 🔥热销 | ¥60 / 月     | ✅ 500GB/月                     | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT<br>🎁 专属 **Emby** | ✅ **1000Mbps**<br>🔟 设备 | ✅ 每月购买日 | ¥48 | 适合串流大户 |
-| **Platinum** | ¥110 / 月       | ✅ 1000GB/月                    | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT<br>🎁 专属 **Emby** | 🚀 **无限速率**<br>🔟 设备 | ✅ 每月购买日 | ¥88 | 极速体验 |
+| **Special** | ¥140 / 360天     | ✅ **200GiB/年** <br>❌ 不可续费 | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT | 🚫 限速：**100Mbps**<br>设备上限待确认 | ❌ 不重置 | ❌ 无法重置 | 一次性买断 |
+| **Bronze**  | ¥30 / 月         | ✅ 150GiB/月                     | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT | ✅ **500Mbps**<br>设备上限待确认 | ✅ 每月购买日 | ¥24 | 实用型月付 |
+| **Gold** 🔥热销 | ¥60 / 月     | ✅ 500GiB/月                     | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT<br>🎁 专属 **Emby** | ✅ **1000Mbps**<br>设备上限待确认 | ✅ 每月购买日 | ¥48 | 适合串流大户 |
+| **Platinum** | ¥110 / 月       | ✅ 1TiB/月                    | ✅ 金融级万兆IEPL专线<br>✅ 解锁 Netflix / ChatGPT<br>🎁 专属 **Emby** | 🚀 **无限速率**<br>设备上限待确认 | ✅ 每月购买日 | ¥88 | 极速体验 |
 
 ---
 
@@ -769,21 +691,18 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 | 偶尔使用 / 轻量访问     | **Special**    | 成本低，一年管够                      |
 | 日常轻度使用            | **Bronze**     | 流量刚刚好，性价比高                  |
 | 常用串流 & AI工具       | **Gold** 🔥     | 高速流畅，解锁内容全面                |
-| 重度使用 / 多设备共享   | **Platinum**   | 无限速+高流量，体验拉满               |
+| 重度使用 / 高流量需求   | **Platinum**   | 无限速+高流量，体验拉满               |
 
 ------
 ## 奶茶Cloud机场
-奶茶Cloud已支持Hysteria2节点（暂时只有几个测试节点，后期会陆续添加），速度更快，非常适合下载及流媒体。目前官网客户端和Clash系列还不支持使用该节点，需要使用Hiddify-next、Clash-meta、Sing-box、Shadowsocks等第三方客户端才可以使用，目前我们已经更新了Hiddify-next使用文档，Hiddify-next使用简单，极易上手，推荐使用，请在官网-使用教程中查看
+奶茶Cloud此前介绍过Hysteria2测试节点，并提供[Hiddify-next相关导入说明](https://github.com/John19187/proxy-client-guides/blob/main/downloads/hiddify/README.md#import)。使用前在本家账户查看当前节点和对应教程，按协议与订阅格式选择客户端；[Hiddify安装与导入](https://github.com/John19187/proxy-client-guides/blob/main/downloads/hiddify/README.md#import)和[sing-box配置教程](https://github.com/John19187/proxy-client-guides/blob/main/downloads/sing-box/README.md#import)分别说明各自输入。按当前客户端、内核版本与本家配置核对兼容条件。
 
 👉 **[奶茶Cloud机场官网注册入口](https://so.dianlanla.com/naichatea)**
 
 
-
-
-
-![image](https://github.com/user-attachments/assets/e489eeae-6e5c-4139-b81d-641b63bd52ed)
+[![image](assets/review-images/d0e4a5ba75b971d9-original.png)](assets/review-images/d0e4a5ba75b971d9-original.png)
  **优惠码**
-限时8折优惠码：IcLB03Dc 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料中的限时优惠未核实当前期限与适用套餐，下表按未用券价格比较。
 
 ### 套餐对比表格  
 
@@ -798,52 +717,13 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 | **赞助版** | ¥1888 | 一次性 | 无限流量 | 不限速 | 全球热门节点，24x7技术支持，高端独享节点，不限在线客户端，隧道专线高速节点 |
 
 ------
-## 起帆Cloud机场
-
- **起帆Cloud机场特点**
-- **高性能传输**：即使在不稳定和高丢包的网络环境下，也能提供无与伦比的性能
-- **抗封锁设计**：伪装成标准的HTTP/3流量，提高隐蔽性，减少被墙识别及拦截
-- **智能调节机制**：能够自动调整传输策略，根据网络条件动态优化传输策略，减少延迟和丢包
-- **全平台支持**：提供多种客户端和服务器端的实现，支持多个操作系统和平台[1]。
-- **无审计高速专线**：确保网络速度稳定。
-- **极低延迟**：适合实时流媒体和在线应用。
-- **不限设备数**：适合家庭或团队使用。
-- **全平台通用**：支持多种设备和操作系统。
-
-限时8折优惠码：ajMGa0aZ
-
-👉 **[起帆Cloud机场官网注册入口](https://so.dianlanla.com/qifan)**
-
-###  套餐详情介绍
-
-| 套餐名称      | 价格    | 流量       | 特点                                                         |
-| ------------- | ------- | ---------- | ------------------------------------------------------------ |
-| 2000G-Bronze  | ¥9.9/月 | 2000GB/月  | 无审计高速专线，极低延迟，Hysteria协议解锁流媒体及ChatGPT，不限设备数，全平台通用 |
-| 6000G-Bronze  | ¥24/月  | 6000GB/月  | 同上                                                         |
-| 18000G-Bronze | ¥60/月  | 18000GB/月 | 同上                           |
-
-- **轻度使用（流媒体浏览）** → 2000G-Bronze（¥9.9/月）
-- **中等需求（多设备流媒体使用）** → 6000G-Bronze（¥24/月）
-- **高流量需求（大规模下载/多设备使用）** → 18000G-Bronze（¥60/月）
-![image](https://github.com/user-attachments/assets/2c00f16c-4a79-4b50-bfe1-f2c2e547e37b)
-
-
-------
 ## 万城Vcity机场
 
 为您介绍万城Vcity机场的官网地址入口、优惠码信息、套餐详情介绍
 
 
-
-
  **优惠码**
-8 折优惠码: v-city80 年付及以上
-
-7 折优惠码: v-city70  年付及以上（排除流量包）
-
-历史88折优惠码: 9527，当前有效期与适用套餐需在结算页确认。
-
-限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料列过年付及以上折扣，且部分活动排除流量包；当前有效期与适用范围未核实，不计入本次价格比较。
 
 👉 **[万城Vcity机场官网注册入口](https://so.dianlanla.com/wancheng)**
 
@@ -866,7 +746,7 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 | **大包** | ¥298.00 | 580GB | 终身 | ★热门套餐，其他同上 |
 | **超大包** | ¥598.00 | 1300GB | 不限使用期 | 其他同上 |
 
-![image](https://github.com/user-attachments/assets/6724efee-b9ce-40ac-bdcb-d3b13776e423)
+[![image](assets/review-images/9b8af2800d71857d-original.png)](assets/review-images/9b8af2800d71857d-original.png)
 
 
 ------
@@ -877,9 +757,7 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 👉 **[泡芙云机场官网注册入口](https://so.dianlanla.com/paofu)**
 
 
-
-
-![image](https://github.com/user-attachments/assets/3826e9ce-69bc-429f-8ba4-2f59341a1f92)
+[![image](assets/review-images/9f32ffa3b96741d3-original.png)](assets/review-images/9f32ffa3b96741d3-original.png)
 
  历史优惠码：2024NY，未确认本轮仍有效，不计入当前价格比较。
 
@@ -907,7 +785,8 @@ Bronze月付¥30、每月150GiB，Gold月付¥60、每月500GiB，Platinum月付
 
 所有套餐均支持 **普通款 & 旗舰款 IEPL 专线**，流媒体解锁，无限速 🚀
 
-![image](https://github.com/user-attachments/assets/16160d3b-9bc3-4af7-ad84-412c20ba60eb)
+[![image](assets/review-images/3f30e683e3b54d46-original.png)](assets/review-images/3f30e683e3b54d46-original.png)
+
 ------
 ## Web3加速器
 
@@ -934,7 +813,8 @@ Web3加速器，是一家比较稳定的专线机场，低调稳定，开业5年
 
 ### 速度测试
 
-![ Web3加速器机场测速图](https://img.fastcybers.com/i/2025/03/04/67c7157963e36.webp)
+评估线路时，用自己的常用网站、流媒体或工作应用查看访问效果，再结合常用时段的延迟、丢包和下载表现选择。本家提供试用时，可按试用额度完成这些比较。
+
 ------
 ## 飞机云机场
 飞机云机场是一家成立于2022年的VPN梯子机场，提供Shadowsocks（SS）和V2Ray协议的服务。该机场以其价格实惠、性价比高而受到用户的欢迎，支持解锁多种流媒体服务，如Netflix、Disney+等。
@@ -951,9 +831,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 客户服务：提供工单和在线客服支持。
 
 
-
-
-特惠包年7折优惠代码：FJ555 限于时效性，最新优惠码，询问在线客服即可获得。
+2026年11月已收官网双十一公告列有包年7折码`FJ1234`，截止2026年11月30日；已有套餐的用户需从首页“升级套餐”入口购买，具体订单适用性看结算结果。
 
 👉 **[飞机云机场官网注册入口](https://so.dianlanla.com/feijiyun)**
 
@@ -966,7 +844,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 |半年付|￥77.9|￥113.9|￥173.9|￥233.9|￥335.9|
 |年付|￥155.8|￥227.8|￥347.8|￥467.8|￥671.8|
 |两年付|￥311.7|￥455.7|￥695.7|￥935.7|￥1343.7|
-![image](https://github.com/user-attachments/assets/f134c974-4364-40ea-9de8-a540d64aa41a)
+[![image](assets/review-images/c318ec14cb2ceecd-original.png)](assets/review-images/c318ec14cb2ceecd-original.png)
 
 
 ------
@@ -989,13 +867,10 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 👉 **[灯塔Cloud机场官网注册入口](https://so.dianlanla.com/dengta)**
 
 
-
-
-![image](https://github.com/user-attachments/assets/3fda2859-9c43-4143-9d8f-2d10aff9cf3d)
+[![image](assets/review-images/a44a79897a75384c-original.png)](assets/review-images/a44a79897a75384c-original.png)
 
 
 ###  套餐详情介绍
-
 
 
 | **套餐名称**         | **价格**        | **流量**   | **速度/带宽**        | **设备**  | **线路**              | **其他特点** |
@@ -1004,7 +879,6 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 | **个人套餐 (VIP1)**  | ¥79 /季付      | 600GB/月   | 峰值 500Mbps         | 不限设备数 | VIP0-VIP1 节点        | 独享 IEPL 专线，支持 ChatGPT & 流媒体 |
 | **个人套餐 (VIP2)**  | ¥145 /半年付   | 600GB/月   | 峰值 1500Mbps        | 不限设备数 | VIP0-VIP1-VIP2 节点  | 独享 IEPL 专线，支持 ChatGPT & 流媒体 |
 | **个人套餐 (VIP2)**  | ¥269 /年付     | 600GB/月   | 峰值 2000Mbps        | 不限设备数 | VIP0-VIP1-VIP2 节点  | 独享 IEPL 专线，支持 ChatGPT & 流媒体 |
-
 
 
  **📢 选购建议**  
@@ -1027,7 +901,6 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 
 
 奈云机场提供专业的海外网络加速解锁，稳定高效专线IPLC线路 🚀 支持加速访问：ChatGPT Google Facebook TikTok Instagram WhatsApp Messenger等等一系列网站 🔑解锁NF/HBO/Bilibili港澳台/HULU/动画疯/Pixiv等流媒体
-
 
 
 * * *
@@ -1060,7 +933,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
      - **¥98.00/次，280G流量**：适合短期内流量需求较小的用户。
      - **¥218.00/次，680G流量**：适合中等流量需求的用户。
      - **¥498.00/次，2048G流量**：适合长期使用且流量需求较大的用户。
-       ![image](https://github.com/user-attachments/assets/aced5cf9-9c5f-4687-893e-428eea6c9cbb)
+       [![image](assets/review-images/c109bba1c8669548-original.png)](assets/review-images/c109bba1c8669548-original.png)
 
 
 ---
@@ -1072,27 +945,24 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 **线路协议：** 专用VPN协议 & Shadowsocks (SS) 三方通用订阅
 **核心技术：** 中转专线、家宽/住宅原生节点
 **基础套餐：** 流量包模式（流量永不过期）
-**试用优惠：** 输入券码 `vpsknow` 即可获赠 1天/5GB 流量
+**试用条件：** 旧资料中的1天/5GB赠送码未核实当前仍有效。2026年11月已收套餐说明列有¥6.80、20GB总量的试用包，一次购买、用完为止，不按月重发；是否可购以账户商店为准。
 **流媒体解锁：** 支持 Netflix、Disney+、Hulu 等全平台
 **AI服务解锁：** 完美支持 ChatGPT、Claude、Gemini、Midjourney 等
 **节点分布：** 美国、香港、日本、新加坡、英国、德国等50+国家
-**客户端支持：** 自家专用客户端、Clash、Shadowrocket、V2Ray 等
+**客户端支持：** 自家专用客户端、Clash、[Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)、V2Ray 等
 **特色服务：** 不限设备连接数、流量不过期、稳定不断流
 
 👉 **[网际快车官网注册入口](https://so.dianlanla.com/flashexpress)**
 
 
-
-
-<img width="1646" height="753" alt="网际快车 image" src="https://github.com/user-attachments/assets/025ceed5-8d4f-4f11-8b55-91fb30e52c71" />
+<img width="1646" height="1115" alt="网际快车 image" src="assets/review-images/59ed33a182ca25e0-original.png" />
 
 ### 📊 网际快车 套餐价格对比表
 
 
-
 | **套餐类型**  | **套餐名称** | **价格** | **流量额度**            | **有效期**     | **核心特色**              |
 | ------------- | ------------ | -------- | ----------------------- | -------------- | ------------------------- |
-| **试用/入门** | **试用套餐** | ¥6.8     | **20 GB**               | **永久不过期** | 购买即赠，适合测速体验    |
+| **试用/入门** | **试用套餐** | ¥6.8     | **20 GB**               | **永久不过期** | 付费试用总量，非每月重置    |
 | **不限时间**  | **标准套餐** | ¥16      | **100 GB**              | **永久不过期** | 性价比之选，轻度使用首选  |
 | **不限时间**  | **优选套餐** | ¥29      | **200 GB**              | **永久不过期** | 网页办公/偶尔追剧推荐     |
 | **不限时间**  | **高级套餐** | ¥49      | **380 GB**              | **永久不过期** | 均衡配置，长效备用        |
@@ -1129,8 +999,6 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 👉 **[霓虹机场官网注册入口](https://so.dianlanla.com/nihong)**
 
 
-
-
 ### **套餐概览**
 
 | 套餐名称 | 价格      | 流量      | 最高速度 | 设备数 | 特点                             |
@@ -1149,7 +1017,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 ## 虫洞云机场
 **虫洞云机场** 是一家提供高效、稳定的 VPN 服务平台，专注于全球网络加速。平台拥有超过 30 个优质节点，包括香港、日本、韩国、新加坡、美国等，确保全球用户都能享受极速、无阻的上网体验。
 
-用户可以通过虫洞轻松实现高清视频流畅观看，享受**无限制带宽**，不再担心流量或速度限制。虫洞支持多平台操作系统，提供便捷的设置方式与一键导入功能，确保用户轻松连接。
+虫洞支持多平台操作系统，提供设置说明与一键导入功能。流量额度和峰值速率按套餐区分；下表的月付配额与年付总量包分别比较，流量额度与峰值速率分别查看。
 
 不仅如此，虫洞还拥有强大的解锁流媒体能力，支持多个热门平台（如 Netflix、Hulu、HBO、Disney+、DAZN 等）以及其他内容的访问，助力用户跨区域观看。
 
@@ -1157,15 +1025,13 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 - 高速节点：台湾、香港、日本、韩国等地区极速节点  
 - 专属虫洞APP客户端，简化操作  
 - 解锁流媒体：支持 Netflix、Hulu、HBO、Disney+、DAZN 等平台  
-- 峰值速率：120Mbps，高效稳定  
-- 月流量上限：最高可达 600GB，满足大流量需求
+- 峰值速率：本节套餐表分别列100、300和500Mbps，按所选档位核对
+- 流量额度：本节月付表列200、500和1000GB；年付总量包另列，不按月重发
 
 👉 **[虫洞云机场官网注册入口](https://so.dianlanla.com/chongdong)**
 
 
-
-
-![image](https://github.com/user-attachments/assets/a44281a5-37ac-4a6d-8561-e26aeccad4f1)
+[![image](assets/review-images/05b1325873414821-original.png)](assets/review-images/05b1325873414821-original.png)
 
 ###   套餐详情
 
@@ -1192,7 +1058,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 👉 **[小旋风机场官网注册入口](https://so.dianlanla.com/xiaoxuanfeng)**
 
 
-![image](https://github.com/user-attachments/assets/e9f85616-a1a5-4845-b16f-0576016811f1)
+[![image](assets/review-images/0f54318f890ace6f-original.png)](assets/review-images/0f54318f890ace6f-original.png)
 
 ###  套餐详情介绍
 | 套餐 | 价格 | 时长 | 每月流量 | 速率 | 设备限制 | 其他特点 |
@@ -1202,7 +1068,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 | **半年付** | ¥102.00 | 6个月 | 110GB | 不限速 | 不限制 | 同上（海外用户8折） |
 | **年付** | ¥192.00 | 12个月 | 110GB | 不限速 | 不限制 | 同上 |
 
-![image](https://github.com/user-attachments/assets/0a5501b5-02ad-47ce-a2d4-40fae303f961)
+[![image](assets/review-images/f3e9128948d14caa-original.png)](assets/review-images/f3e9128948d14caa-original.png)
 
 ------
 ## 一云梯机场
@@ -1217,10 +1083,6 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 7：老板 ，技术背景，早已移民海外 ， 线路稳定风险小
 
 👉 **[一云梯机场官网注册入口](https://so.dianlanla.com/yiyunti)**
-
-
-
-
 
 
 ###  套餐详情介绍
@@ -1243,7 +1105,7 @@ IPLC专线：提供稳定的网络连接，适合流媒体和在线应用。
 - **定制服务（跨境电商、直播业务）** → **个性化定制 ¥600/月**
 
 你更倾向于哪种？
-![image](https://github.com/user-attachments/assets/02102f83-6526-4bb5-827f-88c31008b81a)
+[![image](assets/review-images/5d5ba5c2f41f5416-original.png)](assets/review-images/5d5ba5c2f41f5416-original.png)
 
 ------
 ## Gatern机场
@@ -1260,20 +1122,15 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 欧洲：英国、法国、德国、意大利、荷兰、瑞典、俄罗斯、乌克兰、土耳其、波兰、丹麦、立陶宛、拉脱维亚、瑞士、罗马尼亚  
 非洲：埃及、南非等地，全面覆盖，节点多样化，轻松应对多场景加速需求。
 
-- ![image](https://github.com/user-attachments/assets/9a6c4f26-793a-4621-8796-7e18dc92972b)
+- [![image](assets/review-images/7039e53b1cebc224-original.png)](assets/review-images/7039e53b1cebc224-original.png)
 
 **优惠码**
- - 年付及以上套餐可享**7.5折**，使用优惠码：`65ZGFN29XB`
-- 半年付及以下/一次性套餐可享**8.5折**，使用优惠码：`OVP56BZ8E8`
-- 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料按年付、短周期与一次性套餐列过不同折扣，当前期限与适用范围未核实，不计入下表价格。
 套餐详情介绍
-
-
 
 
 🌐 **支持的节点地区（所有套餐均可用）：**
 > 香港、台湾、日本、韩国、新加坡、马来西亚、菲律宾、印尼、印度、泰国、越南、以色列、阿联酋、澳新、美加、英法德意等 40+ 国家和地区，小众国家如乌克兰、尼日利亚等也覆盖。
-
 
 
  ###  ⏱ **周期性套餐（按月订阅）**
@@ -1291,7 +1148,6 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 - 适合长期使用且月月都有稳定需求的用户
 - 支持最多 10 个设备同时在线
 - 统一使用企业级跨境专线 + 支持小众节点
-
 
 
 ### 🎁 **一次性套餐（买断流量，一年内用完即可）**
@@ -1323,9 +1179,6 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 速鹰666机场是一家专业的SSR/V2Ray机场服务提供商，拥有多年的知名度和声誉。
 
 
-
-
-
 主要特点：
 - **线路类型**：采用CN2/BGP隧道中转和IPLC内网专线，提供极速稳定的网络体验。
 - **支持协议**：支持SSR和V2Ray协议，适合不同用户的需求。
@@ -1333,10 +1186,10 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 - **流媒体解锁**：付费节点可解锁Netflix、Hulu、HBO等国外流媒体。
 - **性价比高**：提供灵活的套餐选择，价格便宜，适合不同类型用户。
 - **客户端支持**：支持主流SSR/V2Ray客户端订阅链接。
-- **服务支持**：提供工单、在线客服和TG群交流，方便用户获取帮助。
+- **服务支持**：提供工单和在线客服，具体入口从已保存的官网查看。
 
  **优惠码**
-包年7折优惠代码： SYS25 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料中的包年优惠未核实当前期限与适用套餐，不计入本次价格比较。
 
 ### 套餐详情介绍
 
@@ -1353,17 +1206,15 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 - **高清流媒体/AI（4K视频 + ChatGPT）** → **标准版（¥39.99/月, 350GB）**
 - **多人共享 + 不限速** → **旗舰版（¥59.99/月, 600GB）**
 - **超高需求（团队共享 + 大流量下载）** → **旗舰版大流量（¥99.99/月, 1200GB）**
-![image](https://github.com/user-attachments/assets/0f3ecdcc-9689-4ece-99e8-c3e6ef3a4b60)
+[![image](assets/review-images/aeba3630f871c9c9-original.png)](assets/review-images/aeba3630f871c9c9-original.png)
 
 
 ------
 ## 一枝红杏机场
-一枝红杏机场高速、安全、便捷 简单配置即可使用。保护您的互联网访问隐私，使用多种方式可以保护您的个人数据，并让您在使用公共 Wi-Fi、访问个人和工作账户、以及保留浏览记录时更加放心和安全：隐藏真实 IP 地址、保护您的在线身份、不记录日志，防止浏览记录被跟踪、保护您的银行交易、使用军事级别加密保护您的数据安全、在公共Wi-Fi网络上保持安全。；节点包含美国、日本、台湾、香港、新加坡等，Netflix，HBO Max，Amazon Prime Video，Disney Now，Disney+等流媒体稳定解锁，ChatGPT等ai服务访问解锁；客户端方面支持Clash QuantumultX等通用客户端导入订阅链接；支付方式支持支付宝和微信。
+一枝红杏机场高速、安全、便捷 简单配置即可使用。保护您的互联网访问隐私，使用多种方式可以保护您的个人数据，并让您在使用公共 Wi-Fi、访问个人和工作账户、以及保留浏览记录时更加放心和安全：隐藏真实 IP 地址、保护您的在线身份、不记录日志，防止浏览记录被跟踪、保护您的银行交易、使用军事级别加密保护您的数据安全、在公共Wi-Fi网络上保持安全。；节点包含美国、日本、台湾、香港、新加坡等，Netflix，HBO Max，Amazon Prime Video，Disney Now，Disney+等流媒体稳定解锁，ChatGPT等ai服务访问解锁；客户端方面支持Clash [QuantumultX](https://github.com/John19187/proxy-client-guides/blob/main/downloads/quantumult-x/README.md#import)等通用客户端导入订阅链接；支付方式支持支付宝和微信。
 
 
-
-
-![image](https://github.com/user-attachments/assets/0409cf53-5e13-46bb-b895-41f8fc1bf64b)
+[![image](assets/review-images/874686ae5e69a936-original.png)](assets/review-images/874686ae5e69a936-original.png)
 
 ###  套餐详情介绍
 ✅ 这是 **Trojan Lite vs. Trojan Pro 套餐对比表**，一眼看懂差异与适合人群：
@@ -1386,7 +1237,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 - ✅ 云端自动订阅更新，免手动设置
 📌 如果预算不高但希望体验 Trojans 协议的稳定性和流媒体解锁，**Lite 就是性价比之选**。 💡 若你有多个设备、家人共用、或重度使用，Pro 则值得入手。
 
-![image](https://github.com/user-attachments/assets/19f9c24a-2077-45e8-aa49-c14d14fba887)
+[![image](assets/review-images/23bc71ac64fddd44-original.png)](assets/review-images/23bc71ac64fddd44-original.png)
 
 
 ------
@@ -1394,11 +1245,9 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 为您全面介绍BoostNet机场的优惠码与套餐特点介绍
 
 
-
-
-![image](https://github.com/user-attachments/assets/33461201-549a-454c-99a5-447c2127120a)
+[![image](assets/review-images/2f8e726baf032e86-original.png)](assets/review-images/2f8e726baf032e86-original.png)
 ###  优惠码
-新人8折优惠券：boost 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料中的新人优惠未核实当前期限与适用套餐，不计入下表价格。
 ###  套餐详情介绍
 
 
@@ -1441,8 +1290,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 ---
 
 
-
-![image](https://github.com/user-attachments/assets/cf64c60f-9c5a-4124-aa25-1446658b9a21)
+[![image](assets/review-images/17751244b3f5321a-original.png)](assets/review-images/17751244b3f5321a-original.png)
 
 ###  套餐详情介绍
 
@@ -1455,17 +1303,14 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 | **1000GB/月** | ¥100 | ¥280 | ¥520 | ¥1000 |
 
 
-
-
 ------
 ## 掌中世界机场
 
 掌中世界机场高价购入IPLC内网专线，精心优化传输算法，只为您上网更爽快。最先进流量隐藏技术，将VPN穿墙流量化身网页浏览，免于防火墙干扰
 
 
-
 **优惠码**
-8折优惠 ZZSJ2025 限于时效性，最新优惠码，询问在线客服即可获得。
+此前资料中的2025年优惠未核实当前仍可使用，不计入本次价格比较。
 
 👉 **[掌中世界机场官网注册入口](https://so.dianlanla.com/zhangzhong)**
 
@@ -1490,8 +1335,7 @@ Gatern（原 Shuttle）是一家提供双线并发负载的稳定加速服务平
 - **终极备用流量，无时间限制** → **限量传家宝（¥399/一次, 5550GB）**
 
 
-![image](https://github.com/user-attachments/assets/6c9d350d-14a7-4ba4-926f-848467eff177)
-
+[![image](assets/review-images/2685b4fb68f910a3-original.png)](assets/review-images/2685b4fb68f910a3-original.png)
 
 
 ## WestData西部数据机场
@@ -1510,9 +1354,7 @@ WestData 提供丰富的流媒体解锁服务，支持访问多种热门平台�
 - **支付方式**：支持支付宝与 USDT，方便快捷
 
 
-
-
-![image](https://github.com/user-attachments/assets/a73d25a7-3a55-4d5e-aba8-685b20a95915)
+[![image](assets/review-images/4486f3791ceeab8a-original.png)](assets/review-images/4486f3791ceeab8a-original.png)
 
 ### 🧾 PASS 套餐详细对比
 
@@ -1547,73 +1389,16 @@ WestData 提供丰富的流媒体解锁服务，支持访问多种热门平台�
 ## 速云梯机场
 
 
-速云梯机场主要提供SSR和V2ray协议节点，资料列有国内中转和IPLC内网专线。入门、基础、标准和旗舰等套餐的流量、设备支持不同，可按实际用量与客户端需求选择；节点倍率和当前维护情况也应一并比较，线路名称本身不代表特殊时期的可用性承诺。
+速云梯机场主要提供SSR和V2ray协议节点，资料列有国内中转和IPLC内网专线。入门、基础、标准和旗舰等套餐的流量、设备支持不同，可按实际用量与客户端需求选择；节点倍率和当前维护情况也应一并比较。
 
 👉 **[速云梯机场官网注册入口](https://so.dianlanla.com/suyunti)**
 
 
+[![image](assets/review-images/fb40c2fd07932f49-original.png)](assets/review-images/fb40c2fd07932f49-original.png)
 
-
-
-
-![image](https://github.com/user-attachments/assets/26e175bf-cb9d-489e-94ba-478e7cd1c9d7)
-
-<img width="1200" height="675" alt="机场推荐27" src="https://github.com/user-attachments/assets/742b2fce-db40-4356-9601-563255c84ac9" />
+<img width="1200" height="939" alt="机场推荐27" src="assets/review-images/fed50c99c4251d91-original.png" />
 
 ------
-
-<a id="airport-comparison"></a>
-
-### 机场总结
-
-同一套餐先看实际付多少钱，再看该周期给多少流量。表内月付、季付、年付与总量包保持各自单位；具体节点等级、重置规则和设备限制可点回品牌介绍。年价除以12只能得到月均费用，不能当成可购买的月付价。
-
-| 机场（完整介绍） | 首次付款例 | 付款周期与流量 | 线路与地区 | 客户端或设备 | 选购要点 |
-|---|---|---|---|---|---|
-| [**稳定机场**](#稳定性价比机场) | ¥18/月，100GB | 月付¥18/100GB、¥38/300GB、¥53.60/500GB；年付¥76/50GB月、¥116/100GB月、¥146/150GB月 | 企业级跨境专线 | 本家专属客户端 | 仅官方客户端，不提供第三方订阅 |
-| [WestData西部数据](#westdata西部数据机场) | ¥20/月，200GiB | SILVER ¥20/月(200GiB)，PLATINUM ¥40/月(400GiB)，DIAMOND ¥60/月(600GiB)，ULTIMATE ¥80/月(800GiB) | BGP多线接入+国际IPLC专线 | 多平台支持 | 中国大陆BGP多线接入 |
-| [MESL机场](#mesl机场) | $3.6/月，100G | 100G $3.6/月；200G $6.8/月 | 公开套餐标示BGP+IPLC | 5台同时在线 | 美元结算；3/5Gbps为标称峰值 |
-| [FSCloud机场](#fscloud机场) | ¥9/季，中份套餐 | 小份套餐¥13/年(100GB)，中份套餐¥9/季(350GB)，大份套餐¥10/月(1200GB) | 直连+Hysteria2 | 多平台支持 | 电信Azure入口，移动联通AWS入口 |
-| [flowercloud花云](#flowercloud花云机场) | ¥39/月，Lite | Lite¥39/月，Plus¥58/月，Max¥113/月；年付Air¥128(20G/月)，企业Basic¥500/月，Enterprise¥780/月 | BGP+运营商直签专线 | 多平台支持 | 线路覆盖全球多个地区 |
-| [大哥云机场](#大哥云机场) | ¥19.9/月，100GB | VIP1小流量年付¥88(15GB/月)，年付A¥199(300GB)，年付B¥299(500GB)；季付A¥69(200GB)，单月A¥19.9(100GB)，单月B¥29.9(150GB) | 见品牌线路说明 | Windows、macOS、iOS、Android等 | 不限设备数量，支持支付宝和微信支付 |
-| [百变小樱机场](#百变小樱机场) | ¥15/月，100GB | BASIC¥98/年(50GB/月)，PRO-初级1月¥15(100GB)，3月¥45(100GB/月)，6月¥90(100GB/月)，12月¥180(100GB/月)，3年¥540(100GB/月) | IEPL专线+中转 | 提供官网客户端 | 提供注册免费24小时试用 |
-| [蚯蚓机场](#蚯蚓机场) | ¥20/月，80GB | 个人基础版¥20/月(80GB)，专业版¥48/月(240GB)，专业版+¥68/月(360GB)；企业基础版¥198/月(1400GB)，企业专业版¥398/月(3400GB)；抖咖传媒¥88/月(240GB)，¥198/月(880GB)；一次性【68GB】¥48，一次性【158GB】¥108，定制¥1000/月 | 线路未明确 | 多平台支持 | 提供直播电商专属套餐和长期备用流量 |
-| [Taishan Net泰山](#taishan-net-泰山机场) | ¥13/月，128GB；64GB档¥29/季 | ¥29/季含每月64GB；¥13/月含128GB；一次性¥78含总量200GB | 按当前套餐核对 | 见本家教程 | 总量包不按月重发；所选节点可能有倍率 |
-| [超悦机场](#超悦机场) | ¥6.8/月，500G | 500G-星星¥6.8/月，1000G-月亮¥13.6/月，2000G-太阳¥20.4/月，5000G-皇冠¥27.2/月 | Hysteria协议 | 多平台支持 | 按套餐速率与设备限制比较 |
-| [小鲤鱼机场](#小鲤鱼机场) | ¥6.8/月，1000G | 1000G-青铜¥6.8/月，2000G-白银¥10/月，6000G-黄金¥24/月，18000G-铂金¥60/月 | Hysteria2协议 | 专属客户端 | 上线全新的Hysteria2协议 |
-| [WgetCloud机场](#wgetcloud机场) | 新购季付/年付，应付金额见商店 | 新购季付230/250/270G每30天；年付280/320/360G每30天 | 多线BGP+CN2 | 3/4/5个可用IP，非设备数；Trojan订阅 | 旧月付规格见本节；新购比较商店应付金额 |
-| [老猫云机场](#老猫云机场) | ¥20/月，100G | B套餐¥45/季(50G)，C套餐¥20/月(100G)，D套餐¥30/月(200G)，E套餐¥40/月(300G)，F套餐¥150/季(500G) | IEPL专线 | 提供官网客户端 | 按套餐节点与流量比较 |
-| [可乐云机场](#可乐云机场) | ¥25/月，100GB | 标准版¥25/月(100GB)，进阶版¥30/月(200GB)，轻量版¥38/月(350GB)，中级版¥48/月(500GB)，企业版¥58/月(800GB)；150G按量计费¥58 | CN2+CMI+IEPL | 多平台支持 | 支持Trojan/SSR/V2Ray协议 |
-| [GsouCloud机场](#gsoucloud机场) | ¥25/月，100GB | SIMPLE ¥25/月(100GB)，LITE ¥30/月(150GB)，PRO ¥35/月(225GB)；PRO ULTRA ¥1499/年(18888GB) | 未明确列出 | 多平台支持 | 按套餐流量、设备和地区比较 |
-| [ByWave机场](#bywave机场) | ¥30/月，150GB | Special¥140/年(200GB)，Bronze¥30/月(150GB)，Gold¥60/月(500GB)，Platinum¥110/月(1000GB) | IPLC专线 | 多平台支持 | 按IPLC节点地区与配额比较 |
-| [奶茶Cloud机场](#奶茶cloud机场) | ¥11.9/月，200G | 入门版¥11.9/月(200G)，基础版¥21.9/月(400G)，标准版¥36.9/月(800G)，尊享版¥69.9/月(1600G)，旗舰版¥119/月(3200G)，企业版¥229/月(8888G)，赞助版¥1888(无限) | Hysteria2 | 多平台支持 | 已支持Hysteria2节点 |
-| [起帆Cloud机场](#起帆cloud机场) | ¥9.9/月，2000G | 2000G-Bronze¥9.9/月，6000G-Bronze¥24/月，18000G-Bronze¥60/月 | Hysteria协议 | 多平台支持 | 按所选档位的流量与节点倍率比较 |
-| [万城Vcity机场](#万城vcity机场) | ¥12/月，6GB | 体验¥12/月(6GB)，迷你¥22/月(120GB)，入门¥38/月(220GB)，标准¥68/月(380GB)，专业¥138/月(780GB)；小包¥88/年(60GB)，中包¥128/年(260GB)，大包¥298(580GB)，超大包¥598(1300GB) | IEPL专线 | 多平台支持 | 提供一次性流量包套餐 |
-| [泡芙云机场](#泡芙云机场) | ¥1/3天试用；轻量¥12/月 | 试用¥1/3天(10GB)，轻量¥12/月(50GB)，小¥22/月(200GB)，大¥32/月(300GB)，旗舰¥42/月(400GB)，团队¥72/月(700GB)，旗舰团队¥102/月(1TB) | IEPL专线 | 多平台支持 | 海外团队运作，支持SS、SSR协议 |
-| [飞机云机场](#飞机云机场) | ¥12.9/月，入门档 | 入门¥12.9/月，基础¥18.9/月，标准¥28.9/月，高级¥38.9/月，旗舰¥55.9/月 | 未明确列出 | 多平台支持 | 提供工单和在线客服支持 |
-| [灯塔Cloud机场](#灯塔cloud机场) | ¥60/半年，标准版 | 标准版¥60/半年(100GB/月)，个人VIP1¥79/季(600GB/月)，个人VIP2半年¥145(600GB/月)，年¥269(600GB/月) | IEPL专线 | 提供官网客户端 | 注册试用60分钟10GB高速流量 |
-| [奈云机场](#奈云机场) | ¥28/月，388G | ¥28/月(388G)，¥49/月(788G)；¥128/年(168G/月)；不限时流量包¥98(280G)，¥218(680G)，¥498(2048G) | IPLC专线 | 多平台支持 | 解锁内容丰富 |
-| [维尼(霓虹)云机场](#霓虹) | ¥10/月，250GB | 小罐蜂蜜¥10/月(250GB)，大罐蜂蜜¥25/月(1000GB)，一桶蜂蜜¥45/月(3000GB) | 大陆BGP多线 | 多平台支持 | 先进的流量隐藏技术，穿墙流量化身网页浏览 |
-| [桔子云机场](#桔子云机场) | ¥19.99/月，100GB | 入门¥19.99/月(100GB)，基础¥29.99/月(200GB)，标准¥39.99/月(350GB) | CN2/BGP+IPLC | 在Android、iOS、macOS、Windows、Linux等平台都有客户端可用 | 流量充足，价格便宜 |
-| [虫洞云机场](#虫洞云机场) | ¥19/月，200GB | Platinum¥19/月(200GB)，Diamond¥49/月(500GB)，Ultimate¥99/月(1000GB)；轻享500G¥99/年，畅享2000G¥299/年，至尊5000G¥599/年 | 高速节点 | 提供专属APP客户端 | 按流量与客户端支持比较 |
-| [小旋风机场](#小旋风机场) | ¥20/月，110GB | ¥20/月(110GB)，季¥54(110GB)，半年¥102(110GB)，年¥192(110GB) | IPLC专线 | 多平台支持 | 对新手用户十分友好，客服实时在线 |
-| [一云梯机场](#一云梯机场) | ¥15/月，100GB | VIP1¥15/月(100GB)，VIP2¥30/月(200GB)，VIP3¥60/月(400GB)，VIP4¥120/月(1000GB)，小年包¥98/年(60GB/月) | IPLC专线 | 多平台支持 | 真人客服实时在线，可远程协助新手用户完成配置 |
-| [Gatern机场](#gatern机场) | ¥24/月，120G | Nano¥24/月(120G)，Micro¥40/月(200G)，Small¥76/月(380G)，Medium¥148/月(740G)，Large¥292/月(1460G)；Lite¥188(282G)，Pro¥388(582G)，Ultra¥788(1182G) | 中继+内网专线 | 多平台支持 | 支持多种支付方式，包括主流加密货币 |
-| [速鹰666机场](#速鹰666机场) | ¥19.99/月，100GB | 入门¥19.99/月(100GB)，基础¥29.99/月(200GB)，标准¥39.99/月(350GB)，旗舰¥59.99/月(600GB)，旗舰大流量¥99.99/月(1200GB) | CN2/BGP+IPLC | 多平台支持 | 节点需要付费解锁 |
-| [一枝红杏机场](#一枝红杏机场) | ¥99/年，每月100GB | Trojan Lite¥99/年(100GB/月)，Trojan Pro¥499/年(500GB/月) | 未明确列出 | 多平台支持 | 客户端支持Clash QuantumultX等通用客户端导入订阅链接 |
-| [BoostNet机场](#boostnet机场) | ¥20/月，20GB | 轻量¥20/月(20GB)，¥118/年(20GB/月)，爆款¥39/月(200GB)，大流量¥58/月(400GB)，超大流量¥108/月(1000GB)，至尊VIP¥388/月(1500GB) | 未明确列出 | 多平台支持 | 禁止BT/P2P/PT |
-| [悠兔机场](#悠兔机场) | ¥29/月，按所选档位额度 | 50GB/月¥29，150GB/月¥29，300GB/月¥39，500GB/月¥59，1000GB/月¥100 | IEPL专线和隧道公网中转 | 多平台支持 | 屏蔽轮媒、RFA 和 Pincong 等内容，禁止使用传统的SMTP、POP3、IMAP邮件协议 |
-| [掌中世界机场](#掌中世界机场) | ¥18/月，100GB | BA1.0 ¥18/月(100GB)，ST2.0 ¥20/月(280GB)，PR5 ¥45/月(680GB)；mini X ¥78/年(30GB/月)，mini S ¥88/年(60GB/月)，king ¥299/2年(2088GB)，限量传家宝¥399(5550GB) | IPLC内网专线 | 多平台支持 | 一次性总量与周期配额分开比较 |
-| [速云梯机场](#速云梯机场) | ¥19.9/月，入门档 | 入门¥19.9/月，基础¥29.9/月，标准¥39.9/月，旗舰¥59.99/月，旗舰大流量¥99.99/月 | 中转+IPLC专线 | 多平台支持 |  |
-| [杨帆云机场](#杨帆云机场) | ¥19.99/月，LV1 | 100/200/400/700/1200GB月档 | 节点按等级开放，LV1国内中转 | UniClash；2—6台按档位 | 低档位不含全部IEPL线路 |
-| [优信云机场](#优信云机场) | 具体金额见本家商店 | 正文入门档100GB，计费周期30天 | 专线Trojan；按需核对地区 | 入门档2台、200Mbps标称 | 不把月用量与重置日混用 |
-| [隐云机场](#隐云机场) | ¥25/月，通用订阅轻量 | 通用150GB；官方客户端轻量¥29/月 | IPLC/IEPL与BGP组合 | 通用订阅与官方客户端分档 | 官方档流量/设备规则不能套到订阅档 |
-| [Web3加速器](#web3加速器) | ¥25/月，VIP1 | 100/300/800GB；月付¥25/55/88 | 原资料标示IPLC与SS | 按本家教程选择客户端 | 周期与流量倍率按所选节点核对 |
-| [网际快车 (Flash Express)](#网际快车-flash-express) | 按量20GB/¥6.8；周期包¥24/月 | 按量100GB/¥16；包月50GB/日 | VPN协议与SS通用订阅 | 官方客户端及第三方订阅 | 按量总量和周期包每日重置分开 |
-| [Bitz Net机场](#bitz-net机场) | ¥69.99/季，边缘档 | 每月80/400/1000GB；季付¥69.99/119.99/199.99 | 边缘档不含香港、日本等亚太节点 | 第三方订阅激活见本家教程 | 没有单独月付；重置费不是起购价 |
-| [蓝帆云](#lanfanyun) | ¥12.99/月，入门档 | ¥12.99/17.99/32.99月付；50/100/200GB | 节点等级随套餐开放 | 2/2/3台；60M/60M/150M标称 | 会员流量到账与到期清零按本家说明 |
-| [秒连云](#miaolianyun) | ¥8/月，Air 120G；或¥38/120G不限时 | 月付120/220/320/520G与三档不限时总量包分开 | 官网标示全中转加密线路 | 按本家教程核客户端，设备数未列清 | 无退款，新疆勿购；不限时总量不按月重发 |
-
 
 ### 套餐详情介绍
 |套餐|入门版|基础版|标准版|旗舰版|旗舰版大流量|
@@ -1629,34 +1414,42 @@ WestData 提供丰富的流媒体解锁服务，支持访问多种热门平台�
 |入门版|基础版|标准版|旗舰版|旗舰版大流量|
 |----|----|----|----|----|
 |100GB使用流量<br/>2个设备同时使用<br/>最高60M速率<br/>工单客服支持<br/>支持SSR、V2ray节点<br/>国内中转节点<br/>解锁流媒体<br/>可用入门版节点|200GB使用流量<br/>3个设备同时使用<br/>最高150M速率<br/>工单客服支持<br/>支持SSR、V2ray节点<br/>国内中转节点<br/>解锁流媒体<br/>可用入门版节点<br/>可用基础版节点|350GB使用流量<br/>5个设备同时使用<br/>最高300M速率<br/>工单客服支持<br/>支持SSR、V2ray节点<br/>国内中转节点<br/>解锁流媒体<br/>可用入门版节点<br/>可用基础版节点<br/>可用标准版节点|600GB使用流量<br/>8个设备同时使用<br/>不限制速率<br/>Telegram客服技术支持<br/>支持SSR、V2ray节点<br/>国内中转节点<br/>解锁流媒体<br/>可用入门版节点<br/>可用基础版节点<br/>可用标准版节点<br/>IPLC专线节点<br/>可用旗舰版节点(可用所有节点)|1200GB使用流量<br/>10个设备同时使用<br/>不限制速率<br/>Telegram客服技术支持<br/>支持SSR、V2ray节点<br/>国内中转节点<br/>解锁流媒体<br/>可用入门版节点<br/>可用基础版节点<br/>可用标准版节点<br/>IPLC专线节点<br/>可用旗舰版节点(可用所有节点)|
+
 ## MESL机场
 
-MESL 成立于 2022 年，主打金融级 IEPL 专线。节点接入阿里云 CEN 与腾讯云 Anycast 网络，国内提供阿里、电信、移动三种 BGP 入口，高峰期可智能调度至可用线路，线路质量在同价位中较为突出。
+MESL 的普通 Premium 套餐允许 5 台设备同时在线。2026 年 11 月套餐页标示 BGP、IPLC、IEPL 专线中继及最高 10 Gbps 带宽。想知道家里晚上看视频是否流畅，单看标称带宽还不够。
 
-协议目前主推 Shadowsocks，兼容 Clash、Shadowrocket、v2rayN 等主流客户端导入订阅。实测可解锁 Netflix、Disney+、ChatGPT，支持 5 台设备同时在线，并提供注册免费试用，建议下单前先测试本地延迟。
+MESL 在 9 月 23 日公告中推荐使用官方客户端。它的分流依赖专用 DNS。用 [Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md#import)，要先载入 MESL 的分流配置，再更新订阅；用 Clash 时，检查自己的 [DNS覆写是否盖掉了这份配置](https://github.com/John19187/proxy-client-guides#campus-dns)。[v2rayN](https://github.com/John19187/proxy-client-guides/blob/main/downloads/v2rayn/README.md#import) 无法按同一方式接收这套 DNS。准备先试用的读者，应在付款前查看账户里是否有试用入口。
 
 👉 **[MESL机场官网注册入口](https://so.dianlanla.com/mesl)**
 
 
-<img width="1671" height="593" alt="[MESL 官网截图" src="https://github.com/user-attachments/assets/8ad48c93-e1f7-413a-9d28-4b33eaa580af" />
+<img width="1671" height="961" alt="MESL过往官网页面截图，当前人民币套餐见下表" src="assets/review-images/4200e04793bfe945-original.png" />
 
 
 ### 套餐价格表
 
-| 套餐 | 月付 | 峰值带宽 | 线路 | 解锁 | 设备 |
-| --- | --- | --- | --- | --- | --- |
-| 100G Premium | $3.6/月（约 ¥26） | 3 Gbps | BGP + IPLC | Netflix / ChatGPT | 5 台 |
-| 200G Premium | $6.8/月（约 ¥49） | 5 Gbps | BGP + IPLC | Netflix / ChatGPT | 5 台 |
+下表为 2026 年 11 月 4 日套餐页的人民币价格，每格是该周期一次要付的总额。普通 Premium 档在每月账单日重置流量，空缺的周期用「—」标出。
 
-> 套餐为美元计价；[MESL公开套餐页](https://meslcloud.com/)列出100G与200G两档月付、BGP+IPLC和5台在线设备。人民币数字仅作近似比较，实际结算币种、兑换及费用以付款页为准；峰值带宽是套餐标称。
+| 套餐 | 每月额度 | 月付 | 季付 | 半年付 | 年付 | 流量重置费 | 同时在线设备 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Premium 50G | 50GB | — | — | — | ¥155 | ¥15 | 5台 |
+| Premium 100G | 100GB | — | ¥72 | ¥142 | ¥256 | ¥26 | 5台 |
+| Premium 200G | 200GB | ¥50 | ¥140 | ¥256 | ¥499 | ¥50 | 5台 |
+| Premium 300G | 300GB | ¥70 | ¥205 | ¥380 | ¥760 | ¥70 | 5台 |
+| Premium 500G | 500GB | ¥110 | ¥320 | ¥630 | ¥1200 | ¥110 | 5台 |
+| Premium 1024G | 1024GB | ¥210 | ¥610 | ¥1200 | ¥2299 | ¥210 | 5台 |
+| Premium Team | 3072GB | ¥599 | ¥1699 | ¥3299 | ¥6300 | ¥599 | 20台 |
+
+100G档的¥26是流量重置费；季付¥72折合每月¥24，下单仍需一次付¥72。国际站与人民币账户的商品可能不同，本表仅比较这份人民币套餐记录，国际站商品另按对应商店查看。站方另列新疆优化专属套餐并提示其他地区用户勿购，不与上表混为同一档位。
 
 **选购建议**
 
-- 单设备、日常网页与查询：100G Premium（约 ¥26/月）即可满足。
-- 多设备、4K 流媒体或大流量下载：建议 200G Premium，峰值带宽 5 Gbps。
-- 不确定线路是否适配本地网络：先用注册赠送的试用实测延迟与解锁情况。
+- 每月约100GB用量：比较Premium 100G的季付、半年付与年付，注意首次应付总额。
+- 需要单月付款：从已列月付的Premium 200G及以上档位比较，普通档均为5台同时在线。
+- 需要更多设备：Team档列有20台同时在线与3072GB月额度，费用和配额均应独立评估。
 
-在 IEPL 专线机场中，MESL 的入门价位偏低，适合看重线路质量、但预算低于 WgetCloud 档位的用户。
+购买前核对所在网络的客户端适配、当期可购项与退款条件；带宽标称和流媒体清单不保证每个节点在你的网络上都能达到相同效果。
 
 ## Bitz Net机场
 
@@ -1668,11 +1461,11 @@ MESL 成立于 2022 年，主打金融级 IEPL 专线。节点接入阿里云 CE
 | 核心访问 | ¥119.99 | ¥229.99 | ¥429.99 | ¥764.99 | ¥999.99 | 400GB |
 | 深度访问 | ¥199.99 | ¥379.99 | ¥714.99 | ¥1274.99 | ¥1664.99 | 1000GB |
 
-三档均没有单独月付。边缘访问明确不包含香港、日本等亚太节点，不能当作核心访问的“小流量版”；最低价也需连地区范围一起看。手动重置费分别¥16.99、¥34.99、¥54.99，不是套餐起购价。三档标称峰值分别为100/500/800Mbps。
+三档均没有单独月付。边缘访问明确不包含香港、日本等亚太节点，节点清单与核心访问分别查看；最低价也需连地区范围一起看。手动重置费分别¥16.99、¥34.99、¥54.99，不是套餐起购价。三档标称峰值分别为100/500/800Mbps。
 
 已有公告记录第三方订阅更新前可能需先在用户首页激活，具体步骤按本人账户教程。可结合套餐图对比费用与流量重置规则。
 
-![Bitz2026-09-15套餐页，三档分别列明周期、流量和地区范围](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/20260916/PROVIDER.BITZ_NET.EVIDENCE.PLANS.0005.webp)
+[![Bitz2026-09-15套餐页，三档分别列明周期、流量和地区范围](assets/review-images/ddf5bd8718f78ea9-original.webp)](assets/review-images/ddf5bd8718f78ea9-original.webp)
 
 
 Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。以下价格来自 2026 年 9 月 15 日的官网套餐页记录，三档均从季付起购；表中的折合月费不是可单独购买的月付价格。
@@ -1687,13 +1480,13 @@ Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。�
 
 👉 **[Bitz Net 官网注册入口](https://so.dianlanla.com/bitznet)**
 
-通过推广链接购买，作者可能获得佣金，不增加你的购买价格。
+<a id="按套餐档位选择蓝帆云"></a>
 
 ## 蓝帆云
 
 <a id="lanfanyun"></a>
 
-蓝帆云的套餐按流量、同时使用设备数和节点等级分档。看价格之外，还要看自己买到哪一级节点：入门版只能使用入门节点，基础版增加基础节点，标准版再增加标准节点，不能把低价档当成全部线路都可用。
+蓝帆云的套餐按流量、同时使用设备数和节点等级分档。看价格之外，还要看自己买到哪一级节点：入门版只能使用入门节点，基础版增加基础节点，标准版再增加标准节点。
 
 👉 **[蓝帆云官网注册入口](https://so.dianlanla.com/lanfanyun)**
 
@@ -1709,7 +1502,7 @@ Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。�
 
 页面说明会员流量一次性到账，到期才清零；更换套餐需从首页的升级套餐入口操作。表中为月付选项，其他付款周期与更高档位可在商店中比较。
 
-![蓝帆云商店套餐：月付价格、流量、设备数与节点等级](https://raw.githubusercontent.com/John19187/ji-chang-tui-jian/main/assets/lanfanyun-plans-20261009.png)
+[![蓝帆云商店套餐：月付价格、流量、设备数与节点等级](assets/review-images/636ace2be7493446-original.png)](assets/review-images/636ace2be7493446-original.png)
 
 蓝帆云还提供在线客服与流媒体节点服务。选购时可结合节点地区、设备数及套餐等级比较，客户端配置与退款条件见官网说明。
 
@@ -1748,23 +1541,24 @@ Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。�
 
 ### 客户端与购买条件
 
-站方提供[Android的Clash Meta](https://mly518.com/#/knowledge/4)、[Windows的Clash](https://mly518.com/#/knowledge/6)、[macOS的ClashX](https://mly518.com/#/knowledge/2)以及[iOS的Shadowrocket](https://mly518.com/#/knowledge/17)教程。2026年4月15日公告曾提醒，旧版客户端不支持ANYTLS会造成订阅获取或节点连接超时；已有客户端的用户可从官网核对当前推荐版本和导入方式，不能只凭“Clash”名称判断兼容。
+秒连云在 4 月 15 日的公告中提醒，部分旧客户端不支持 AnyTLS，可能出现节点超时。已经有订阅的用户，先看手里的客户端是否支持该协议，再按[更新订阅与升级软件的区别](https://github.com/John19187/proxy-client-guides#update)决定是否升级。
 
 **官网明确不提供退款服务，并提示新疆地区用户不要购买。** 付款前一并确认客户端适配和当前套餐条件；入口变化与维护信息可关注[官方Telegram群组](https://t.me/miaolianyun)。
 
-<a id="airport-budget"></a>
+<a id="airport-comparison"></a>
 
-## 按预算和用途选机场
+<a id="机场总结"></a>
 
-| 你的需求 | 优先比较 | 选择时抓住什么 |
-|---|---|---|
-| 希望直接使用官方客户端 | [稳定机场](#稳定性价比机场) | 月付100/300/500GB分别¥18/38/53.60；只支持官方专属客户端，不提供Clash或小火箭等第三方订阅 |
-| 已有第三方客户端，想按专线档位选择 | [WgetCloud](#wgetcloud机场) | 新购按季付与年付比较，基础、优质、精品的每30天流量和可用IP数不同；可用IP数不等于设备数 |
-| 预算较低，想按月使用 | [泰山](#taishan-net-泰山机场) | 128GB档月付¥13；64GB档从季付¥29起，月均约¥9.67不能当成单月购买价 |
-| 偶尔使用或准备备用流量 | [泰山总量包](#taishan-net-泰山机场)、[按量选择方法](#airport-payg) | 200GB/¥78、600GB/¥195是总量包，不每月重发；有效期、节点倍率和到期处理按所选套餐核对 |
-| 低月费或不限时流量二选一 | [秒连云](#miaolianyun) | Air 120G月付¥8；120G不限时包一次性¥38。两者配额周期不同，明确无退款且新疆勿购 |
+## 机场套餐横向比较
 
-稳定机场适合接受本家客户端路线的用户，WgetCloud侧重套餐等级与第三方订阅选择，泰山可比较周期配额与按量总量。价格按对应段落的资料日期比较，实际可购项以商店为准；线路标称不能替代你所在网络的使用体验。
+下表集中比较稳定性价比机场、WgetCloud、杨帆云和泰山。先看首次实付与配额周期，再按客户端路线和节点等级选择；资料日期及完整条件保留在各品牌正文，年价除以12只是月均费用。
+
+| 机场（完整介绍） | 首次付款例 | 付款周期与流量 | 线路与地区 | 客户端或设备 | 选购要点 |
+|---|---|---|---|---|---|
+| [**稳定机场**](#稳定性价比机场) | ¥18/月，100GB | 月付¥18/100GB、¥38/300GB、¥53.60/500GB；年付¥76/50GB月、¥116/100GB月、¥146/150GB月 | 企业级跨境专线 | 本家专属客户端 | 仅官方客户端，不提供第三方订阅 |
+| [WgetCloud机场](#wgetcloud机场) | 新购季付/年付，应付金额见商店 | 新购季付230/250/270G每30天；年付280/320/360G每30天 | 多线BGP+CN2 | 3/4/5个可用IP，非设备数；Trojan订阅 | 旧月付规格见本节；新购比较商店应付金额 |
+| [杨帆云机场](#杨帆云机场) | ¥19.99/月，LV1 | 100/200/400/700/1200GB月档 | 节点按等级开放，LV1国内中转 | UniClash；2—6台按档位 | 低档位不含全部IEPL线路 |
+| [Taishan Net泰山](#taishan-net-泰山机场) | ¥13/月，128GB；64GB档¥29/季 | ¥29/季含每月64GB；¥13/月含128GB；一次性¥78含总量200GB | 按当前套餐核对 | 见本家教程 | 总量包不按月重发；所选节点可能有倍率 |
 
 <a id="airport-payment"></a>
 
@@ -1775,55 +1569,31 @@ Bitz Net 的三档套餐可以先按每月流量和最低付款金额比较。�
 | 需求 | 有日期的套餐例子 | 首次实付 | 容易看错的地方 |
 |---|---|---:|---|
 | 只买一个月 | 泰山128GB/月（9月7日记录） | ¥13 | 与64GB季付档不同 |
-| 100GB左右月用量 | 稳定机场轻量100GB/月（11月5日资料） | ¥18 | 同时登录3台，需接受本家专属客户端路线 |
-| 可接受季付 | 泰山64GB/月（9月7日） | ¥29/季 | 约¥9.67月均不代表可单月付款 |
-| 间歇使用 | 泰山总量200GB（9月7日） | ¥78 | 总量包不每月重新发放 |
-| 比较套餐节点等级 | 蓝帆云标准版200GB | ¥32.99/月 | 包含入门、基础、标准节点，不含高级和旗舰节点 |
-| 每月使用、预算较低 | 秒连云Air 120G（11月已收资料） | ¥8/月 | 每月120G，客户端需按本家当前教程核对 |
-| 低频备用流量 | 秒连云120G不限时（11月已收资料） | ¥38/包 | 120G为整包总量，不每月重发；无退款，新疆勿购 |
+| 100GB左右月用量 | 稳定机场轻量100GB/月（11月5日资料） | ¥18 | 同时登录3台，使用本家专属客户端 |
+| 按客户端和节点等级选档 | 杨帆云LV1 | ¥19.99/月 | 100GB/月、2台设备，节点按等级开放 |
+| 可接受季付 | 泰山64GB/月（9月7日记录） | ¥29/季 | ¥29为一次季付总额，月均约¥9.67 |
+| 比较季付、年付和节点等级 | WgetCloud基础、优质、精品 | 按本人商店当前应付金额 | 不同付款周期的每30天配额不同，可用IP数不是设备数 |
+| 间歇使用 | 泰山总量200GB（9月7日记录） | ¥78 | 总量包不每月重新发放 |
 
-这些例子用来比较周期和限制，不是稳定性或测速排名。付款前同时看应付总额、流量重置、节点范围、客户端要求和退款条件；长期付款的月均价低，首次支出和服务持续风险仍更高。
-
-### 按套餐档位选择蓝帆云
-
-蓝帆云的月付档位在设备数、速率和节点等级上有所区别。两台设备、轻量上网可比较入门版与基础版；需要三台设备和标准节点时，可看标准版。比较其他机场时，也把实际付款周期与可用节点范围一起看。
+用这些例子对照付款周期与配额。付款前同时看应付总额、流量重置、节点范围和客户端要求。
 
 ### 月付、季付、年付：月均价和实际支出分开看
 
-月付适合比较每个计费周期的需求，季付和年付则要一起看首次支出与配额。例如泰山64GB档季付¥29，月均约¥9.67，但下单仍需付¥29。
-
-相同品牌、相同档位不一定在所有周期给相同流量。稳定机场年付¥116对应每月100GB，与月付¥18/100GB按各自周期比较；WgetCloud则在季付和年付下给不同的每30天配额。把“首次金额、付款周期、每期额度、重置时间”四项列清，再判断长期周期节省的费用是否符合自己的使用计划。
+月付按一个计费周期的需求选择，季付和年付则一起比较首次支出与每期额度。例如泰山64GB档季付¥29，下单仍需支付¥29；稳定机场年付¥116对应每月100GB，与月付¥18/100GB按各自周期比较。WgetCloud季付、年付的每30天配额不同，杨帆云还需按套餐等级核对设备数和节点范围。
 
 <a id="airport-payg"></a>
 
 ### 按量付费与不限时流量：先看总量和有效期
 
-按量包买的是一份可逐步消耗的总流量，不是每月重新发放的配额。总量包、一次性包和不限时包也不能仅凭名字视为同一种产品：有的有一年有效期，有的按到期清零，有的标示流量不过期。比较时以所选套餐的有效期和重置条款为准。
+按量包买的是一份逐步消耗的总流量，不是每月重新发放的配额。下面以本帖重点介绍的服务说明选择方法，产品名称相近也要分别看有效期、倍率和到期处理。
 
-| 使用方式 | 重点比较 | 对应正文例子 |
+| 使用方式 | 重点比较 | 对应选择 |
 |---|---|---|
-| 每天查资料、聊天或看视频 | 月用量是否稳定、配额多久重置，是否需要追加流量 | [稳定机场](#稳定性价比机场)、[蓝帆云](#lanfanyun)、[泰山](#taishan-net-泰山机场)的周期套餐 |
-| 一个月只用几天 | 总量单价、有效期、用完后的处理；避免闲置月份的固定支出 | [泰山](#taishan-net-泰山机场)的200GB/¥78总量包 |
-| 给已有连接准备备用 | 较长有效期是否适用、常用地区是否包含，是否需要与主服务不同的线路 | [Gatern](#gatern机场)一年有效期总量包、[网际快车](#网际快车-flash-express)的按量产品，可分别核对本家规则 |
-| 比较月费与不限时总量 | 固定月费能否用足，还是希望较长时间消耗同一份流量 | [秒连云](#miaolianyun)：120G/月¥8，与120G不限时总量¥38分开比较 |
+| 每天查资料、聊天或看视频 | 每月用量、重置时间与客户端 | 稳定机场的月付/年付档，或按等级选择杨帆云 |
+| 已有第三方客户端 | 所需订阅格式、付款周期与节点等级 | WgetCloud对应套餐 |
+| 一个月只用几天或保留备用流量 | 总量、有效期与节点倍率 | 泰山200GB/¥78、600GB/¥195总量包，按所选产品条件购买 |
 
-比较按量价格可以用“应付金额 ÷ 总流量”，周期套餐则还需看实际每月能用多少。例如总量200GB包¥78约为¥0.39/GB；这只是流量成本，不代表节点质量或下载速度。若某节点为5倍倍率，传输1GB会按5GB扣除，实际消耗还要把倍率算进去。
-
-<a id="airport-clients"></a>
-
-## Clash、小火箭订阅与官方客户端怎么选
-
-已有Clash系列或Shadowrocket（小火箭）的配置时，优先确认服务商提供对应的订阅格式。支持Trojan、Shadowsocks或Vmess，是协议层面的条件；能否直接导入，还取决于本家订阅输出和客户端版本。
-
-| 使用路线 | 可从哪些品牌说明开始看 | 注册前确认什么 |
-|---|---|---|
-| 官方专属客户端 | [稳定机场](#稳定性价比机场)、[杨帆云](#杨帆云机场) | 稳定机场仅官方客户端，不提供第三方订阅；杨帆云按原说明使用UniClash，先确认自己的系统可安装 |
-| 第三方客户端订阅 | [WgetCloud](#wgetcloud机场)、[泰山](#taishan-net-泰山机场)等 | 读取本家对应系统的教程，选择该客户端的订阅格式，按本人的账户教程处理 |
-| 官方客户端与通用订阅分档 | [隐云](#隐云机场)、[网际快车](#网际快车-flash-express) | 隐云两种模式的流量与设备限制不同，不能把官方客户端“不限流量”套到通用订阅档 |
-
-Windows、macOS、Android、iOS的安装来源与导入方式各不相同。客户端名称相近也不等于同一个软件；按本家教程核对下载入口、订阅格式与系统权限。需要进一步理解协议和订阅的区别，可看[机场协议与选购指南](https://github.com/John19187/ssr-v2ray-trojan-clash-guide)；[VPN推荐](https://github.com/John19187/The-40-Best-VPNs)另有按设备与使用方式组织的说明。
-
-订阅地址包含个人账户信息，导入自己的客户端即可，不要发到公开群、截图或评论区。稳定机场用户直接走官方客户端路线，不需要寻找第三方转换链接。
+按量成本可以用“应付金额÷总流量”比较，例如200GB/¥78约为¥0.39/GB。计算时按所用节点倍率扣量，再结合视频、下载等实际用途估算。
 
 <a id="airport-faq"></a>
 
@@ -1833,13 +1603,13 @@ Windows、macOS、Android、iOS的安装来源与导入方式各不相同。客�
 
 按30天使用周期计算，100GB平均每天约3.3GB，300GB平均每天约10GB。可以先看自己最近一个完整周期的实际用量，再加上预计新增的视频、下载和其他设备用量；流量倍率和重置时间也会改变结果。
 
-视频流量可按实际平均码率估算：GB约等于“Mbps × 小时 × 0.45”。例如平均8Mbps的视频每小时约3.6GB，100GB约能承担27小时，300GB约83小时；这是十进制单位的算术示例，尚未扣除网页、下载、协议开销或节点倍率，画质名称本身不能直接换成固定流量。
+视频流量可按实际平均码率估算：GB约等于“Mbps × 小时 × 0.45”。例如平均8Mbps的视频每小时约3.6GB，100GB约能承担27小时，300GB约83小时；这是十进制单位的算术示例，尚未扣除网页、下载、协议开销或节点倍率，按视频实际平均码率计算。
 
 ### IEPL、IPLC与中转线路怎么比较？
 
 IEPL和IPLC是专线类别，中转描述连接通过额外服务器转发；一款服务也可能把专线与中转结合使用。名称只说明线路组织的一部分，选型时还要看你所在运营商到入口的连接、所需地区是否在套餐内、高峰时段表现及流量倍率。
 
-不需要把最贵的专线档当作所有人的起点。WgetCloud各等级开放的地区不同，杨帆云不同等级开放的线路也不同；先找到能访问所需地区、适配自己设备的档位，再比较额度和费用。MESL公开套餐标示BGP+IPLC，WgetCloud按套餐等级区分节点与额度，二者仍需按具体规格比较。
+不需要把最贵的专线档当作所有人的起点。WgetCloud各等级开放的地区不同，杨帆云不同等级开放的线路也不同；先找到能访问所需地区、适配自己设备的档位，再比较额度和费用。MESL本家人民币套餐标示BGP+IPLC+IEPL，WgetCloud按套餐等级区分节点与额度，二者仍需按具体规格比较。
 
 ### 价格更高就一定更适合吗？
 
@@ -1855,21 +1625,19 @@ IEPL和IPLC是专线类别，中转描述连接通过额外服务器转发；一
 
 还是不通，按三种情况分。它们的处理方式完全不同，最怕的是把换域名当成跑路，或者把跑路当成临时故障干等着。
 
-**节点不可用，但官网还能打开。** 先检查套餐是否有效、订阅是否更新，再看本家公告及客服说明。官网可访问不能证明节点正常；恢复时间没有明确公告时，不预设半天或一天就会恢复。
+**节点不可用，但官网还能打开。** 先检查套餐是否有效、订阅是否更新，再看本家公告及客服说明。恢复安排查看本家公告，主用暂时中断时先切换已经准备好的备用连接。
 
-**订阅更新失败，官网也打不开。** 比较不同网络的访问结果，再查已保存的官方公告和备用入口。其他网络能打开而当前网络打不开，可能涉及DNS、路由或访问限制，不能仅凭这个现象认定域名被墙。遇到入口迁移，使用本家已确认的新地址，不把搜索广告里的同名站点当成备用官网。
+**订阅更新失败，官网也打不开。** 比较不同网络的访问结果，再查已保存的官方公告和备用入口。其他网络能打开而当前网络打不开，可能涉及DNS、路由或访问限制。遇到入口迁移，使用本家已确认的新地址，不把搜索广告里的同名站点当成备用官网。
 
-**域名无法解析。** 浏览器提示找不到服务器时，核对其他网络及DNS的结果；ping没有回应也可能只是禁止ICMP，并不等于域名没有解析。再查已确认的备用入口、公告及客服，不能据此单独判断停运。
+**域名无法解析。** 浏览器提示找不到服务器时，核对其他网络及DNS的结果；ping没有回应也可能只是禁止ICMP，并不等于域名没有解析。再查已确认的备用入口、公告及客服。
 
-域名解析失败不等于停运。入口迁移、域名到期和DNS故障都可能造成旧地址无法访问；官网、备用地址、公告和客服的持续失联则需要进一步核实。频道仍有更新可以提供线索，也不能单独证明节点正常或服务一定会恢复。
-
-先去频道确认一下，这一步能省掉大部分误判。
+域名解析失败不等于停运。入口迁移、域名到期和DNS故障都可能造成旧地址无法访问；官网、备用地址、公告和客服的持续失联则需要进一步核实。从已保存的服务入口查看站内公告；若仍能登录，可用工单核实故障范围，并保留报错与发生时间。
 
 ### 这事有多常见
 
 2026 年 7 月 27 日，我对这份清单收录的 61 条服务商链接做了一次全量可达性核查，6 条访问不到，接近十分之一。失效形态分三类：域名解析不到 4 条、服务器返回 503 一条、连接超时一条。
 
-但访问不到不等于跑路。把这 6 条逐个追查之后：3 家还在正常运营，只是换了域名；2 家确认已经停运或转手；1 家线索不足，判断不了。
+把这6条逐个追查后的结果是：3 家还在正常运营，只是换了域名；2 家确认已经停运或转手；1 家线索不足，判断不了。
 
 这个比例每隔一段时间就会变，所以清单得持续核对，而不是发一次就不管了。
 
@@ -1884,20 +1652,36 @@ IEPL和IPLC是专线类别，中转描述连接通过额外服务器转发；一
 | USDT 等加密货币 | 基本没有 | 链上转账不可逆 |
 | 第三方发卡平台 | 看平台 | 部分平台有担保交易，去平台申诉 |
 
-所以年付要慎重。这行倒闭速度不慢，年付省下的那点钱抵不过一次跑路。月付或季付，损失上限锁死了。
+预付周期越长，尚未用完的费用通常越多。比较年付折扣时，也要比较一次支付金额和退款条件；月付或季付可减少单次预付金额，退款与费用追回按支付渠道和订单条款办理。
 
-### 三个提前跑路的征兆
+<a id="三个提前跑路的征兆"></a>
 
-- 突然大促。远低于市场价的终身套餐、超低折扣年付，收一波现金然后关门是常见套路。
-- 公告停更、客服变慢。频道两三周不说话、工单几天没人回，往往出现在服务终止之前。
-- 反复换域名却不发公告。正规机场换域名会提前通知，闷声换的通常在处理别的麻烦。
+### 出现哪些情况值得进一步核实
 
-可在自己设备上保存客户端配置，订阅地址不要公开分享。配置备份不能保证服务终止后节点仍可用，重要用途需另外评估备用连接。
+- 已付款后持续无法使用，原公告、工单和备用入口也无法取得说明。先区分已知维护、本地网络与服务侧异常，再保留订单和错误记录。
+- 公告停更、客服未回复。查看近期维护安排、节假日受理时间与本家备用联系渠道。
+- 入口反复变化，原公告与客服渠道未能说明去向。从已保存的官方渠道核实，不只凭旧域名打不开判断停运。
 
-------
-查看更多VPN推荐资讯，请访问以下文章:  - <a href="https://github.com/John19187/ji-chang-tui-jian" target="_blank">机场汇总推荐</a> - <a href="https://github.com/John19187/The-40-Best-VPNs" target="_blank">稳定高速VPN推荐</a> - <a href="https://github.com/John19187/v2ray-SSR-Clash-Verge-Shadowrocke" target="_blank">免费订阅</a> - [2026最全机场（SSR/V2Ray/Trojan/Clash）科普与选购指南](https://github.com/John19187/ssr-v2ray-trojan-clash-guide) - [高速稳定VPN与翻墙加速器评测与选购攻略！](https://github.com/John19187/vpn-accelerator-guide)
+可在自己设备上保存客户端配置，订阅地址不要公开分享。重要用途提前准备并确认备用连接可用。
+
+日常主用可以侧重常用地区、流量与顺手的客户端，低频使用则可比较总量包和有效期。经常使用AI工具、查阅海外资料或处理工作的人，也可以另备一两条已经确认可用的连接；遇到特殊时期或临时维护，切换起来更从容。专线、中转和不同价位各有适用场景，持续可用仍需要服务商维护，也要结合自己所在网络判断。
+
+选购前核对本家是否提供试用、最短付款周期及退款条件，再比较自己的网络下能否满足用途。此清单按可核验资料更新，明确退役的服务移出推荐，可收藏后定期回看套餐与使用教程。
 
 ## 更新日志
+
+
+<details>
+<summary>展开更新日志</summary>
+
+- 2026-11-16　折叠更新记录，收起许可说明，撤下不必要的维护数据与贡献提示入口。 预算与比较区聚焦四家，比较区后移，大哥云正文移到泰山后；其他品牌详情保留。
+
+- 2026-11-16　删除图片后的重复仓库自链，补充文末客户端与免费节点目录；从中转与套餐选择说明持续可用的限制、节点暴露风险及备用安排，保留品牌图文和推广入口。 补充超低价机场的交付、售后、停运与预付款风险。 图片恢复原件展示，撤掉后加的仓库署名条。
+
+- 2026-11-15　把预算、横向套餐、付款周期和客户端选择前置，保留品牌原文图表及入口；具体操作直达各款教程，环境背景沿独立时间线阅读。
+
+- 2026-11-14　整理客户端资料与故障排查，撤下未核实当前条件的旧优惠及第三方测速图；按已收本家人民币资料更正MESL付款周期与流量重置费。
+- 2026-11-14　调整推荐清单至40家，同步更新目录及套餐比较表。
 
 - 2026-11-08　补充4月以来及10月下旬会议前后的网络环境，并衔接VPN帖的TCP与校园网DNS问答；调整故障排查，区分本地网络、入口迁移和节点故障。
 - 2026-11-08　新增秒连云完整介绍：六款周期套餐、三款不限时总量包、客户端教程、无退款及新疆勿购条件；纳入月付与按量比较，收录数由42家增至43家。
@@ -1908,8 +1692,6 @@ IEPL和IPLC是专线类别，中转描述连接通过额外服务器转发；一
 
 - 2026-10-09　新增蓝帆云及套餐原图；调整标题，补预算用途选型、付款周期、按量与客户端选择及购买问答，统一相关套餐口径。
 
-> **推广说明：** 文中部分注册入口可能带来佣金，不增加你的购买价格。
-
 - 2026-09-16　优化标题，补充套餐价格与付款周期比较，加入Bitz并移除退役服务。
 
 - 2026-08-01　新增 MIT 许可证、结构化服务商清单、维护方法与 GitHub Actions 自动校验
@@ -1919,8 +1701,64 @@ IEPL和IPLC是专线类别，中转描述连接通过额外服务器转发；一
 - 2026-06-03　新增 Coffee Cloud 咖啡云
 - 2026-06-02　新增 MESL 机场
 
-日常主用可以侧重常用地区、流量与顺手的客户端，低频使用则可比较总量包和有效期。经常使用AI工具、查阅海外资料或处理工作的人，也可以另备一两种不同入口或线路的连接；遇到特殊时期或临时维护，切换起来更从容。专线、中转和不同价位各有适用场景，持续可用仍需要服务商维护，也要结合自己所在网络判断。
+</details>
 
-选购前核对本家是否提供试用、最短付款周期及退款条件，再比较自己的网络下能否满足用途；没有试用不代表可以默认退款。此清单按可核验资料更新，明确退役的服务移出推荐，可收藏后定期回看套餐与使用教程。
+## 客户端与相关资源目录
 
-近期环境参考：[4月中转变化](https://t.me/jichangtj/1167)、[10月下旬连接观察](https://t.me/jichangtj/1215)、[11月6日恢复反馈](https://t.me/jichangtj/1216)。这些记录反映对应时段的网络情况，各地运营商和具体线路仍有差异。
+按设备和配置类型进入对应教程；旧版条目用于识别与迁移。软件之间的订阅、配置和备份条件仍以各篇说明为准。
+
+<details>
+<summary>展开客户端目录（含旧版与迁移说明）</summary>
+
+| 客户端 | 设备或范围 | 教程用途 |
+|---|---|---|
+| [Clash Verge Rev](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clash-verge-rev/README.md) | Windows／macOS／Linux | Clash／Mihomo配置与系统代理 |
+| [FlClash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/flclash/README.md) | 电脑／Android | 跨平台下载、导入与连接 |
+| [Clash Party](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clash-party/README.md) | Windows／macOS／Linux | 安装版、便携版与订阅管理 |
+| [Clash Mi](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clash-mi/README.md) | 跨平台 | 按本款入口导入Clash配置 |
+| [ClashX Meta](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clashx-meta/README.md) | macOS | 菜单栏客户端与Mihomo配置 |
+| [v2rayN](https://github.com/John19187/proxy-client-guides/blob/main/downloads/v2rayn/README.md) | 电脑 | 节点订阅与系统代理 |
+| [Hiddify](https://github.com/John19187/proxy-client-guides/blob/main/downloads/hiddify/README.md) | 电脑／手机 | 跨平台导入与连接 |
+| [Karing](https://github.com/John19187/proxy-client-guides/blob/main/downloads/karing/README.md) | 电脑／手机 | 配置、规则与备份 |
+| [Clash Meta for Android](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cmfa/README.md) | Android | Clash配置与VPN授权 |
+| [v2rayNG](https://github.com/John19187/proxy-client-guides/blob/main/downloads/v2rayng/README.md) | Android | 节点订阅与VPN连接 |
+| [NekoBox for Android](https://github.com/John19187/proxy-client-guides/blob/main/downloads/nekobox/README.md) | Android历史版本 | 1.4.2旧版订阅与迁移 |
+| [Surfboard](https://github.com/John19187/proxy-client-guides/blob/main/downloads/surfboard/README.md) | Android | 兼容配置与启动连接 |
+| [sing-box](https://github.com/John19187/proxy-client-guides/blob/main/downloads/sing-box/README.md) | 多平台 | 版本匹配的JSON配置 |
+| [Shadowrocket](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shadowrocket/README.md) | iPhone／iPad | 节点、订阅与VPN连接 |
+| [Stash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/stash/README.md) | Apple设备 | 按本款条件导入Clash类配置 |
+| [Quantumult X](https://github.com/John19187/proxy-client-guides/blob/main/downloads/quantumult-x/README.md) | iPhone／iPad | 节点资源与完整配置的区别 |
+| [Loon](https://github.com/John19187/proxy-client-guides/blob/main/downloads/loon/README.md) | iPhone／iPad | 订阅、策略与分流 |
+| [Surge](https://github.com/John19187/proxy-client-guides/blob/main/downloads/surge/README.md) | iOS／macOS | 按平台配置与接管流量 |
+| [OpenClash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/openclash/README.md) | OpenWrt | 固件条件、配置与插件 |
+| [PassWall](https://github.com/John19187/proxy-client-guides/blob/main/downloads/passwall/README.md) | OpenWrt | 订阅节点与主开关 |
+| [ShellCrash](https://github.com/John19187/proxy-client-guides/blob/main/downloads/shellcrash/README.md) | Linux／路由器 | 安装脚本与运行条件 |
+| [Nextin专用客户端](https://github.com/John19187/proxy-client-guides/blob/main/downloads/provider-app/README.md) | 按服务公开支持范围 | 仅适用于已证实的服务条件 |
+| [Clash for Windows](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cfw/README.md) | 旧版／迁移 | 识别旧配置并迁移 |
+| [Clash for Android](https://github.com/John19187/proxy-client-guides/blob/main/downloads/cfa/README.md) | Android旧版／迁移 | 原版CFA与CMFA分开 |
+| [ClashX](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clashx/README.md) | macOS旧版 | 普通ClashX身份与迁移 |
+| [ClashX Pro](https://github.com/John19187/proxy-client-guides/blob/main/downloads/clashx-pro/README.md) | macOS历史版本 | Pro托管配置与增强模式 |
+| [旧Clash Verge](https://github.com/John19187/proxy-client-guides/blob/main/downloads/old-clash-verge/README.md) | 旧版／迁移 | 与Rev区分及迁移 |
+| [NekoRay](https://github.com/John19187/proxy-client-guides/blob/main/downloads/nekoray/README.md) | 电脑旧版／迁移 | 旧资料与替代客户端 |
+| [旧客户端迁移目录](https://github.com/John19187/proxy-client-guides/blob/main/downloads/legacy/README.md) | 旧版资料 | 按原客户端寻找迁移说明 |
+
+</details>
+
+| 相关文档 | 内容 |
+|---|---|
+| [VPN推荐与使用方式](https://github.com/John19187/The-40-Best-VPNs) | 比较服务的平台、接入方式与客户端 |
+| **机场推荐与套餐比较（本文档仓）** | 比较月付、按量与套餐条件 |
+| [2026年机场通用客户端汇总与下载教程](https://github.com/John19187/proxy-client-guides) | 按设备选软件并进入具体教程 |
+| [机场与代理工具科普指南](https://github.com/John19187/ssr-v2ray-trojan-clash-guide) | 理解机场、协议、客户端、订阅与线路 |
+| [免费节点与订阅资源](https://github.com/John19187/v2ray-SSR-Clash-Verge-Shadowrocke) | 查看公开资源与导入说明，不承诺持续可用 |
+
+<a id="文档维护与许可"></a>
+
+<a id="开源维护"></a>
+
+<details>
+<summary>开源维护与许可</summary>
+
+本文由John19187统一整理维护，实际修改记录见本页更新日志。原创文档采用[MIT许可](./LICENSE)；软件、商标及第三方材料的权利与使用范围见[素材说明](./NOTICE.md)。
+
+</details>
