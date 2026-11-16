@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: '2026-11-08'
+updated_at: '2026-11-14'
 maintenance: ongoing
 providers:
 - id: xingyun
@@ -54,14 +54,6 @@ providers:
   name: 蚯蚓机场
   source_heading: 蚯蚓机场
   url: null
-- id: chaoyue
-  name: 超悦机场
-  source_heading: 超悦机场
-  url: https://so.dianlanla.com/chaoyue
-- id: xiaoliyu
-  name: 小鲤鱼机场
-  source_heading: 小鲤鱼机场
-  url: https://so.dianlanla.com/xiaoliyu
 - id: keyun
   name: 可乐云机场
   source_heading: 可乐云机场
@@ -78,10 +70,6 @@ providers:
   name: 奶茶Cloud机场
   source_heading: 奶茶Cloud机场
   url: https://so.dianlanla.com/naichatea
-- id: qifan-cloud
-  name: 起帆Cloud机场
-  source_heading: 起帆Cloud机场
-  url: https://so.dianlanla.com/qifan
 - id: vcity
   name: 万城Vcity机场
   source_heading: 万城Vcity机场
